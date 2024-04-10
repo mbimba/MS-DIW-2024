@@ -1,0 +1,73 @@
+
+p { color: hwb(13 0% 0%)}
+
+
+ span{
+    color: rgb(255, 0, 0);
+ }
+
+
+label{
+width: 200px;
+display:inline-block;
+font-weight: bold;
+align-items:center;
+font-size: 14px;
+}
+
+.fin{
+    align-items: center;
+    flex: 100%;
+ 
+}
+
+
+textarea
+{
+    width: 50vw;
+    height: 5vw;
+    margin-bottom: 2vh;
+    margin-left:auto;
+    border: 1px inset;
+    background-color: #F7F7F7;
+    color: teal;
+}
+ .bouton{   
+    margin-left: 400px;
+ }
+
+
+
+.ensemble{
+    background-color:aquamarine;
+    width: 100%;  
+    border: 10px solid rgb(51, 153, 68);
+    border-radius: 1em;
+    border-top-right-radius: 10% 1%;
+}
+.debut{
+    background-color:aquamarine;
+    width: 100%;  
+}
+
+
+
+
+
+
+/*
+colonnegauche
+label{
+    display:flex
+    max-width: 100%;
+height: auto;
+flex-direction: row-reverse;
+    float: row;
+    align-items:flex-end;
+}
+
+.bouton{                          // permet de décaler le bloc plus au centre ou vers la droite en modifiant les px
+    margin-left: 400px;
+ }
+
+*/

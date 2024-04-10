@@ -1,0 +1,5 @@
+//  EXERCICE 5- VERIFICATION D'UN FORMULAIRE
+Effectuez le contrôle de saisie de votre formulaire Jarditou en Javascript.
+Lorsqu'une erreur est détectée, l'utilisateur doit en être informé grâce à l'affichage d'un message sous le champ concerné.
+Le formulaire ne peut être envoyé que lorsque tout est bon.
+

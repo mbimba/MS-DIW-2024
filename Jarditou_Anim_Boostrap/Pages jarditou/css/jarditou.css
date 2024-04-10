@@ -1,0 +1,215 @@
+p {
+    color: rgb(88, 76, 76);
+    line-height: 3em;
+    text-align: justify;
+}
+
+h1 {
+    color: black;
+    border: none;
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+
+}
+h3 {
+    color: blue
+}
+
+span {
+    color: red;
+}
+
+#truc {
+    background-color: greenyellow;
+}
+
+
+legend {
+    font-weight: bold;
+}
+
+.promo {
+    width: 100%
+}
+
+
+
+.pantoufle {
+    background-color: white;
+    color: black
+}
+
+.menuitem:hover {
+    color: red;
+}
+
+.menu {
+    background-color: black;
+    line-height: 3em;
+}
+
+.menu a {
+    padding: 1rem;
+}
+
+
+
+li {
+    display: inline;
+}
+
+u,
+i,
+a {
+    color: white;
+}
+
+
+td {
+    font-size: x-large;
+}
+
+th {
+    background: yellow;
+    text-align: center;
+    table-layout: auto;
+    width: 20%;
+    font-size: xx-large;
+}
+
+
+.barbecues {
+    background-color: beige;
+}
+
+
+.entete {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    flex: 50%;
+    max-width: 100%;
+}
+
+.logo img {
+    height: 115px;
+    max-width: 100%;
+}
+
+.textedroit {
+    flex: 50%;
+}
+
+.depuis {
+    float: right
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#colonne {
+    background-color: grey;
+    width: 40%;
+}
+
+.colonneaccueil {
+    width: 60%;
+}
+
+
+#choix {        /* Partie "FORMULAIRE*/
+    font-weight: bolder;
+    background-color: grey;
+}
+
+fieldset {
+
+    border-width: thick;
+    /* permet de donner une épaisseur aux bordures*/
+    border: solid green;
+    /* permet de donner une couleur aux bordures*/
+    border-right-color: green;
+    border-left-color: green;
+}
+
+
+
+
+
+/* MEDIA SCREEN*/
+
+@media screen and (min-width: 800px) {
+    .colonne {
+        display: none;
+
+    }
+
+    .colonneaccueil {
+        flex: 100%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .container {
+        font-size: 20px;
+        margin: 1em;
+        column-width: 10em;
+    }
+
+    .colonneaccueil,
+    .colonne {
+        font-size: 20px;
+    }
+
+    .colonne {
+        display: flex;
+    }
+
+    .textedroit {
+        font-size: 40px;
+
+    }
+
+    .form {
+        font-size: 200px;
+
+    }
+
+    .formulaire {
+        font-size: 20px;
+    }
+
+    .form1 {
+        font-size: 20px;
+    }
+
+    html {
+        font-size: 100%;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .promo {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+    .bouton {
+        margin-left: 50px;
+    }
+}
+

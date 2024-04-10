@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Page tableau</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="Jarditou_Anim_Boostrap/Pages jarditou/css/jarditou_boostrap.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row" width="80%">
+                <div class="col"> <!--Ici logo jarditou-->
+                    <img src="images/jarditou_logo.jpg" class="img-fluid" width="200px" height="auto" alt="Image responsive"
+                        title="Image responsive">
+                </div>
+                <div class="col">
+                    <h1 class="text-right">La qualité depuis 70 ans</h1> <!--"display-6" permet de modifier la taille du texte-->
+                </div> <!--Mon texte droit "La qualité depuis 70 ans"-->
+            </div>
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Jarditou.com</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Accueil</a>
+                  </li>
+          
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Tableau</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Contact</a>
+                    </li>
+                </ul><br>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Rechercher">
+                    <button class="btn btn-outline-success" type="submit">Rechercher</button>
+                  </form>
+            
+            </div>
+        </div>
+    </nav><br>
+    <div >
+        <img class="vw-100" src="images/promotion.jpg" class="img-fluid" media="(max-width: 100%)" height="auto"
+            alt="Image responsive" title="Image responsive">    <!-- "vw-100" permet d'agrandir l'image sur toute la largeur de la page -->
+    </div>
+    <div class="table-responsive">  <!--class "table responsive" permet d'avoir un tableau responsive-->
+    <table class="table table-success table-striped" class="table table-striped table-hover table-bordered">  
+        <thead>
+            <tr>
+                <th scope="col">Photo</th>
+                <th scope="col">ID</th>
+                <th scope="col">Catégorie</th>
+                <th scope="col">Libellé</th>
+                <th scope="col">Prix</th>
+                <th scope="col">Couleur</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th scope="row"><img src="images/7.jpg" alt="image barbecue7" width="100" height="70"></th>
+                <td>7</td>
+                <td>Barbecues</td>
+                <td>Aramis</td>
+                <td>110.000€</td>
+                <td>Brun</td>
+            </tr>
+            <tr>
+                <th scope="row"><img src="images/8.jpg" alt="image barbecue8" width="100" height="70"></th>
+                <td>8</td>
+                <td>Barbecues</td>
+                <td>Athos</td>
+                <td>249.99€</td>
+                <td>Noir</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><img src="images/11.jpg" alt="image barbecue11" width="100" height="70"></th>
+                <td>11</td>
+                <td>Barbecues</td>
+                <td>Clatronic</td>
+                <td>135.90€</td>
+                <td>Chrome</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><img src="images/12.jpg" alt="image barbecue12" width="100" height="70"></th>
+                <td>12</td>
+                <td>Barbecues</td>
+                <td>Camping</td>
+                <td>88.00€</td>
+                <td>Noir</td>
+            </tr>
+
+            <tr>
+                <th scope="row"><img src="images/13.jpg" alt="image barbecue13" width="100" height="70"></th>
+                <td>13</td>
+                <td>Brouette</td>
+                <td>Green</td>
+                <td>49.00€</td>
+                <td>Verte</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+    <hr>
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item"> <a class="nav-link" href="#">Mentions légales</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Horaires</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">Plan du site</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAVASCRIPT HTML</title>
+</head>
+
+<body>
+    Bonjour !!!
+<div>
+    <img id="papillon">
+    <img id="plage">
+</div>
+
+<p id="cube" style="color: yellow;"></p>
+<p id="produit"></p>
+<p id="hello"></p>
+<script>
+    function mycube(x) {
+        return x * x * x;
+    }
+    function myproduit(y,z){
+        return y*z;
+    }
+    function afficheimg (id, image)
+    {
+        var img = document.getElementById(id);
+        img.src=image;
+    }
+
+    function bonjour() {
+        document.getElementById("hello").innerText = "H E L L O !"
+    }
+
+
+    var produit = document.getElementById("produit");
+    produit.innerText = "Le produit de 5*2 est égal à " + myproduit(5,2);
+    produit.style = "color: red;";
+    var cube = document.getElementById("cube");
+    cube.style = "color: green;";
+    cube.innerText = "Le cube de 6 est égal à " + mycube(6);
+    afficheimg("papillon", "papillon.jpg");
+    afficheimg("plage", "plage.jpeg");
+    bonjour(); 
+    hello.style= "color: violet";
+
+</script> 
+</body>
+
+</html>

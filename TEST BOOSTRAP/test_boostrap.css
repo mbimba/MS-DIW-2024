@@ -1,0 +1,35 @@
+#navbar-toggler{
+    font-size: 14px;
+  transition-property: font-size;
+  transition-duration: 4s;
+  transition-delay: 2s;
+  border-style: solid;
+  border-width: 1px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  background-color: #0000FF;
+  transition: width 2s, height 2s, background-color 2s, transform 5s;
+}
+#a{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    background-color: #0000FF;
+    transition: width 2s, height 2s, background-color 2s, transform 5s;
+}
+a:hover{
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+a:hover{
+    animation-name: nom_animation;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}

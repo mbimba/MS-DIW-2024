@@ -1,0 +1,65 @@
+/* Généralités */
+body {
+   width: 60%;
+   margin: 0 auto;
+   background-color: #000;
+   background-image: url("./366501.webp");
+   /* le background-image permet de mettre mon image de fond que j'ai téléchargé et déposé dans mon dossier*/
+   background-position: center;
+   background-origin: content-box;
+   background-repeat: no-repeat;
+   text-align: center;
+   font-family: sans-serif;
+   color: whitesmoke;
+}
+
+h1 {
+   font-size: 8em;
+   color: #8c9c2e;
+}
+
+h2 {
+   font-size: 3em;
+   font-family: serif;
+   margin-top: -1.8em;
+   padding-bottom: 1em;
+}
+
+h3 {
+   font-size: 1em;
+   padding: 1em;
+}
+
+/* Mes conteneurs */
+#preambule {
+   background-color: #4d4d4d;
+}
+
+.contenu {
+   /* J'ai mis un ".contenu" plutôt qu'un "#contenu" car le background ne fonctionne pas et j'ignore la raison  */
+   background-color: #4d4d4d;
+}
+
+#postambule {
+   background-color: #4d4d4d;
+}
+
+.contenu {
+   background-color: #4d4d4d;
+}
+
+
+/* Mes boutons*/
+
+input {
+   border: 0px;
+   background-color: #8c9c2e;
+   width: 40%;
+   height: 4em;
+   font-size: 1em;
+}
+
+input:hover {
+   /* La pseudo classe ":hover" permet de spécifier l'apparence d'un élément au moment où l'utilisateur le survole avec le pointeur, sans nécessairement l'activer  */
+   background-color: whitesmoke;
+}
