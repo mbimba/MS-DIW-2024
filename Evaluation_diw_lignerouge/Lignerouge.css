@@ -1,0 +1,19 @@
+/* Mon nav entête */
+body{
+    background-color: #4A394a;  /* Ma couleur de fond sur Figma */
+}
+
+
+
+
+
+/* Mon footer ou pieds de page */
+footer{
+    position: fixed;
+    bottom:0;
+    float:none;
+    margin: auto;
+}
+
+
+/* Mes boutons */
