@@ -6,13 +6,14 @@ body{
 
 
 
-
 /* Mon footer ou pieds de page */
 footer{
-    position: fixed;
+    position: center;
     bottom:0;
     float:none;
     margin: auto;
+    justify-content: center;
+    align-content: center;
 }
 
 
