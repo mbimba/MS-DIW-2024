@@ -1,20 +1,117 @@
 /* Mon nav entête */
-body{
-    background-color: #4A394a;  /* Ma couleur de fond sur Figma */
+body {
+    background-color: #4A394a;
+    /* Ma couleur de fond sur Figma */
+}
+
+.monentete {
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    font-size: 1.6rem;
+
+
+}
+
+.espace {
+    margin: 0 15px;        /* Pour créer de l'espace entre les éléments du menu "entete" */
+    color:white;
+ 
+}
+
+/* --------------------------------------------------------------------------------------------------------*/
+
+/* Mon image de fond */
+/* object-fit:cover : Cette valeur met l’image à l’échelle de manière proportionnelle pour qu’elle tienne dans le conteneur sans recadrage, en conservant le rapport hauteur/largeur. Elle garantit que l’ensemble de l’image est visible dans le conteneur, ce qui peut entraîner des espaces vides.*/
+
+
+@media (max-width: 480px) {
+    #imagedefond {
+        width: 100%;
+        height: auto;
+    }
 }
 
 
+/* Mon onglet de recherche qui doit être positionné sur l'image de fond*/
+.ongletrecherche {
+    position: absolute;
+    top: 10%;
+    left: 44%;
+    transform: translate(-20%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
 
+}
+.recherche{
+    border-color: #4A394a;  /* Couleur de l'encadré */
+ 
+}
+
+/* Mes images "plats" sur la page accueil */
+
+.imageplataccueil {
+    border-radius: 150px;
+}
 
 /* Mon footer ou pieds de page */
-footer{
+footer {
     position: center;
-    bottom:0;
-    float:none;
+    bottom: 0;
+    float: none;
     margin: auto;
     justify-content: center;
     align-content: center;
 }
 
+/* Les logos réseaux sociaux en pieds de page */
+.meslogosreso {
+    position: relative;
+    top: 10%;
+    left: 20%;
+    margin: 0 15px;
+    /* Pour créer de l'espace entre les logos */
+}
+.meslogosreso:hover {
+    background-color: red;        /* Les bordures sont rouges lors du survol avec la souris */
+}
 
-/* Mes boutons */
+
+/* Début annimation CSS sur mes logos réseaux */
+@keyframes slidein {
+    from { transform: scaleX(0); }
+    to   { transform: scaleX(1); }
+  }
+ .meslogosreso {
+
+    animation: 3s slidein;
+    animation-iteration-count: infinite;    /* L'animation tourne en boucle */
+  }
+  /* Début animation image de fond */
+  .imagedefond{
+   
+    animation:
+    4s linear 0s infinite alternate rise,
+    4s linear 0s infinite alternate bounce;
+  }
+  @keyframes rise {
+    from {
+      transform: translateY(110vh);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes bounce {
+    from {
+      transform: translateX(-50vw);
+    }
+    to {
+      transform: translateX(50vw);
+    }
+  }
+   /* Fin animation image de fond */
+  
