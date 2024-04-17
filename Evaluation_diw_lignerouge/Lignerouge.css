@@ -26,10 +26,12 @@ body {
 
 
 @media (max-width: 480px) {
+  
     #imagedefond {
         width: 100%;
         height: auto;
     }
+
 }
 
 
@@ -70,7 +72,7 @@ footer {
 .meslogosreso {
     position: relative;
     top: 10%;
-    left: 20%;
+    right:2%;
     margin: 0 15px;
     /* Pour créer de l'espace entre les logos */
 }
@@ -120,3 +122,24 @@ footer {
   font-size:xx-large;        /* Taille du texte */
   color:#9d5a9e;
 }
+
+
+
+
+/*------------------------------------------Page Commande-------------------------------------------------------- */
+.monbodycommande{
+  background-color: #4A394a;      /* Une couleur de fond */
+  
+}
+.imageduplatpagecommande{
+  position: relative;
+    top: 10%;
+    left: 50px;
+    margin: 0 500px;
+    width: auto;}
+  .headercommande{
+    overflow: hidden;
+    background-color: #4A394a;
+    padding: 20px 10px;
+  }
+ 
