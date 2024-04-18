@@ -32,7 +32,7 @@ body {
 .ongletrecherche {
     position: absolute;
     top: 10%;
-    right: 35%;
+    left: 44%;
     transform: translate(-20%, -50%);
     z-index: 1;
     color: white;
@@ -61,8 +61,6 @@ footer {
     margin: auto;
     justify-content: center;
     align-content: center;
-    width: 100%;
-    height: auto;
 }
 
 /* Les logos réseaux sociaux en pieds de page */
