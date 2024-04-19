@@ -4,6 +4,14 @@ body {
     /* Ma couleur de fond sur Figma */
 }
 
+.monentete {
+  position: absolute;
+  top: 10%;
+  left: 16%;
+  font-size: 1.6rem;
+
+
+}
 
 
 .espace {
