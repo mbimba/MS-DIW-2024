@@ -1,29 +1,15 @@
 /* Mon nav entête */
-body {
-    background-color: #4A394a;
-    /* Ma couleur de fond sur Figma */
-}
 
-.monentete {
-  position: absolute;
-  top: 10%;
-  left: 16%;
-  font-size: 1.6rem;
-
-
-}
 
 
 .espace {
     margin: 0 15px;        /* Pour créer de l'espace entre les éléments du menu "entete" */
-    color:white;
+  
  
 }
 
 /* --------------------------------------------------------------------------------------------------------*/
 
-/* Mon image de fond */
-/* object-fit:cover : Cette valeur met l’image à l’échelle de manière proportionnelle pour qu’elle tienne dans le conteneur sans recadrage, en conservant le rapport hauteur/largeur. Elle garantit que l’ensemble de l’image est visible dans le conteneur, ce qui peut entraîner des espaces vides.*/
 
 
 @media (max-width: 480px) {
@@ -36,53 +22,12 @@ body {
 }
 
 
-/* Mon onglet de recherche qui doit être positionné sur l'image de fond*/
-.ongletrecherche {
-    position: absolute;
-    top: 10%;
-    right: 35%;
-    transform: translate(-20%, -50%);
-    z-index: 1;
-    color: white;
-    font-size: 100px;
-    font-weight: bold;
 
-}
-.recherche{
-    border-color: #4A394a;  /* Couleur de l'encadré */
- 
-}
-
-/* Mes images "plats" sur la page accueil */
-
-.imageplataccueil {
-    border-radius: 150px;
-    width: 100%;
-    height: auto;
-}
-
-/* Mon footer ou pieds de page */
-footer {
-    position: center;
-    bottom: 0;
-    float: none;
-    margin: auto;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
-    height: auto;
-}
 
 /* Les logos réseaux sociaux en pieds de page */
-.meslogosreso {
-    position: relative;
-    top: 10%;
-    right:2%;
-    margin: 0 15px;
-    /* Pour créer de l'espace entre les logos */
-}
+
 .meslogosreso:hover {
-    background-color: red;        /* Les bordures sont rouges lors du survol avec la souris */
+    background-color: yellowgreen;        /* Les bordures sont rouges lors du survol avec la souris */
 }
 
 
@@ -96,6 +41,8 @@ footer {
     animation: 3s slidein;
     animation-iteration-count: infinite;    /* L'animation tourne en boucle */
   }
+  
+  
   /* Début animation image de fond */
   .imagedefond{
    
@@ -132,19 +79,3 @@ footer {
 
 
 /*------------------------------------------Page Commande-------------------------------------------------------- */
-.monbodycommande{
-  background-color: #4A394a;      /* Une couleur de fond */
-  
-}
-.imageduplatpagecommande{
-  position: relative;
-    top: 10%;
-    left: 50px;
-    margin: 0 500px;
-    width: auto;}
-  .headercommande{
-    overflow: hidden;
-    background-color: #4A394a;
-    padding: 20px 10px;
-  }
- 
