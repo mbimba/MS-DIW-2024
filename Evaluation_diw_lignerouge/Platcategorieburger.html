@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> PLATS BURGERS V3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="Lignerouge.css" rel="stylesheet">
+
+    <body style="background-color: #4A394a;">
+      <header>
+        <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
+          <div class="container-fluid-flex">
+            <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80">
+          </div>
+          <div class="container-fluid d-flex justify-content-evenly " >
+            <ul class="navbar-nav">
+              <li class="nav-item col-sm-4 ">
+                <a class="nav-link  espace" href="Accueil.html">Accueil</a>
+              </li>
+              <li class="nav-item col-sm-4 "> 
+                <a class="nav-link active espace" href="Catégorie.html">Catégorie</a>
+              </li>
+              <li class="nav-item col-sm-4 ">
+                <a class="nav-link espace" href="#">Plat</a>
+              </li>
+              <li class="nav-item col-sm-4 ">
+                <a class="nav-link espace " href="#">Contact</a>
+              </li>
+            </ul>
+           
+          </div>
+        </nav>
+  
+  
+        <!--        ICI MON MA VIDEO DE FOND      -->
+  
+        <div class="image-container" style="background-color: #4A394a;">  <!-- Ici mon image de fond-->
+          <img class="img-fluid" src="Mesimages/imagedefond2a.avif" height="auto" width="100%" position="relative">
+        </div>
+  
+      </header>
+<main>
+<br>
+      <h1 class="text-center">BURGERS</h1><br>
+      <div id="carouselExample" class="carousel slide text-center" data-bs-ride="carousel" style="background-color: #4A394a;">
+        <div class="carousel-inner">
+  <div class="container row d-flex  justify-content-evenly mx-auto p-2 " style="background-color: #4A394a;">  <!-- mx-auto p-2  permet de centrer le bloc de cards au centre de la page -->
+  
+    <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="Mesimages/bgbacon.jpg" class="img-fluid rounded-pill" alt="...">
+          </div>
+          <div class="col-md-6">
+            <div class="card-body">
+              <h5 class="card-title"> BURGER AU BACON</h5>
+              <p class="card-text">Ce plat est composé de...</p>
+              <a href="#" class="btn btn-dark">Commander</a>
+            </div>
+          </div>
+    </div>
+    </div>
+
+          <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4 ">
+                <img src="Mesimages/bgchicken.jpg" class="img-fluid rounded-pill " alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">BURGER CHICKEN</h5>
+                  <p class="card-text">Ce plat est composé de...</p>
+                  <a href="#" class="btn btn-dark">Commander</a>
+                </div>
+              </div>
+            </div>
+          </div>
+       
+          <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Mesimages/bgnormand.jpg" class="img-fluid rounded-pill" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">BURGER NORMAND</h5>
+                  <p class="card-text">Ce plat est composé de...</p>
+                  <a href="#" class="btn btn-dark">Commander</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Mesimages/bgtriplesteak.jpg" class="img-fluid rounded-pill" alt="...">
+              </div>
+              <div class="col-md-6">
+                <div class="card-body">
+                  <h5 class="card-title">BURGER BOEUF</h5>
+                  <p class="card-text">Ce plat est composé de...</p>
+                  <a href="#" class="btn btn-dark">Commander</a>
+                </div>
+              </div>
+            </div>
+          </div>
+  </div>
+
+
+</div>        <!-- ICI Mes boutons de carousel -->
+
+
+<button class="carousel-control-prev d-none" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+<button class="btn btn-secondary" onclick="precedent()" type="button">Précédent</button>
+
+
+<button class="carousel-control-next d-none" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+<span class="carousel-control-next-icon" aria-hidden="true"></span>
+<button class="btn btn-secondary" onclick="suivant()"  type="button">Suivant</button>
+
+
+</div>
+</main>
+
+
+
+
+<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
+
+<footer class="text-center" style="background-color: #4A394a;">
+  <!-- Grid container -->
+  <div class="container p-4 ">
+    <!-- Section: Images -->
+    <section class="mb-4">
+      <div class="row ">
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
+            <a href="#">
+              <img src="images_the_district/the_district_brand/facebook2.png" class="auto">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
+            <a href="#">
+              <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
+            <a href="#">
+              <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
+            <a href="#">
+              <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto">
+            </a>
+          </div>
+        </div>
+
+        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
+            <a href="#">
+              <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Images -->
+  </div>
+
+</footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="Asset/javascript/json.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+      <script src="lignerouge.js"></script>
+  </body>
+  
+  </html>
