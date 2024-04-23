@@ -72,19 +72,23 @@
     <form class="row g-3">
         <div class="col-md-12">
             <label for="nomprenom" class="form-label"><strong>Nom et prénom</strong></label>
-            <input type="text" class="form-control" id="nometprenom" required placeholder="Ce champ est obligatoire".>
+            <input type="text" class="form-control" id="nometprenom">
+            <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-6">
             <label for="email" class="form-label"><strong>Email</strong></label>
-            <input type="email" class="form-control" id="email" required placeholder="Ce champ est obligatoire.">
+            <input type="email" class="form-control" id="email"  placeholder="dave.loper@afpa.fr" required>
+            <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-6">
             <label for="phonenumber" class="form-label"><strong>Téléphone</strong></label>
-            <input type="text" class="form-control" id="tel" required placeholder="Ce champ est obligatoire.">
+            <input type="tel" class="form-control" id="phone" name="phone" placeholder="01 23 45 67 89">
+            <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-12">
             <label for="votreadresse" class="form-label"><strong>Votre adresse</strong></label>
-            <textarea class="form-control" id="adresse" rows="3" required placeholder="Ce champ est obligatoire."></textarea>
+            <textarea class="form-control" id="adresse" rows="3" ></textarea>
+            <span aria-label="required">Ce champ est obligatoire</span>
                 </div>
                 <div class="col-md-12 d-flex flex-row-reverse">         <!-- "d-flex flex-row-reverse" permet de mettre "envoyer" tout à droite -->
                 <button type="submit" class="btn btn-primary">Envoyer</button>
