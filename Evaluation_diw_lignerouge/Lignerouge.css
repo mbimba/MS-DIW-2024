@@ -29,12 +29,15 @@
 
 
 .parallax{          /* Parallax entre mon image de fond et mes images catégories de plats */
-  background-image:  url("Mesimages/imagedefond2a.avif");
+  background-image:  url("Mesimages/imagedefondpagecommande2.jpeg");
   min-height: 100vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 50px;
+  width: auto;
+  
 }
 
 /* -------------------------------------------MEDIA QUIERIES PAGE ACCUEIL -------------------------------------------------------------*/
@@ -110,3 +113,15 @@ span{
 
 /*------------------------------------------FIN Page commande-------------------------------------------------------- */
 
+
+/*------------------------------------------Page contact  -------------------------------------------------------- */
+.containercontact{        /* POur centrer le bloc du formulaire en plein milieu de la page */
+  
+  position: absolute; /* postulat de départ */
+  top: 60%; 
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+
+  
+}
+/*------------------------------------------FIN Page contact  -------------------------------------------------------- */
