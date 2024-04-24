@@ -10,11 +10,23 @@
 /* ----------------------------------Page accueil ---------------------------------------------------------------------*/
 
 .zoomimage img:hover{             /* Pour créer l'effet zoom sur les images "catégorie" de la page accueil */
+ 
   -webkit-transform:scale(1.3);
   transform:scale(1.3);
   -webkit-transition:1s ease-in-out;
   transition:1s ease-in-out
+  
 }
+
+
+.zoomimage img:hover{             /* Pour fixer les dimensions (hauteur et largeur) de l'image zoomée */
+ 
+  width: auto;
+  max-height: 300px;
+  
+}
+
+
 
 .parallax{          /* Parallax entre mon image de fond et mes images catégories de plats */
   background-image:  url("Mesimages/imagedefond2a.avif");
