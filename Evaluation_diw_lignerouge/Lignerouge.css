@@ -1,4 +1,4 @@
-/* Mon nav entête */
+/* -----------------------------Mon nav entête---------------------------------------------------------- */
 
 
 
@@ -7,8 +7,25 @@
   
  
 }
+/* ----------------------------------Page accueil ---------------------------------------------------------------------*/
 
-/* --------------------------------------------------------------------------------------------------------*/
+.zoomimage img:hover{             /* Pour créer l'effet zoom sur les images "catégorie" de la page accueil */
+  -webkit-transform:scale(1.3);
+  transform:scale(1.3);
+  -webkit-transition:1s ease-in-out;
+  transition:1s ease-in-out
+}
+
+.parallax{          /* Parallax entre mon image de fond et mes images catégories de plats */
+  background-image:  url("Mesimages/imagedefond2a.avif");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* -------------------------------------------MEDIA QUIERIES PAGE ACCUEIL -------------------------------------------------------------*/
 
 
 
@@ -68,13 +85,16 @@
     }
   }
    /* Fin animation image de fond */
+/* -----------------------------------------FIN MEDIA QUIERIES PAGE ACCUEIL -------------------------------------------------------------*/
 
 
 
 
 
-
-/*------------------------------------------Page contact-------------------------------------------------------- */
+/*------------------------------------------Page commande-------------------------------------------------------- */
 span{
   color:red;
 }
+
+/*------------------------------------------FIN Page commande-------------------------------------------------------- */
+
