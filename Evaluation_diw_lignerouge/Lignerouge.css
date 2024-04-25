@@ -108,8 +108,11 @@
 /*------------------------------------------Page commande-------------------------------------------------------- */
 span{
   color:red;
+  font-size: smaller;
 }
-
+.inputcontact{                      /* Pour réduire la taille des éléments dans l'encadré */
+  font-size: smaller;
+}
 /*------------------------------------------FIN Page commande-------------------------------------------------------- */
 
 
