@@ -104,6 +104,20 @@
 
 
 
+/*------------------------------------------DEBUT Page TOUS LES PLATS -------------------------------------------------------- */
+
+.tailletitreplat{
+font-size:larger;
+}
+
+
+.tailledescriplat{
+  font-size: smaller;
+}
+
+.tailletextcommand{
+  font-size: small;
+}
 
 /*------------------------------------------Page commande-------------------------------------------------------- */
 span{
@@ -113,7 +127,7 @@ span{
 .inputcontact{                      /* Pour réduire la taille des éléments dans l'encadré */
   font-size: smaller;
 }
-/*------------------------------------------FIN Page commande-------------------------------------------------------- */
+
 
 
 /*------------------------------------------Page contact  -------------------------------------------------------- */
