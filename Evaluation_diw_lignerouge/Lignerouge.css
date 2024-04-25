@@ -114,13 +114,13 @@ span{
 
 
 /*------------------------------------------Page contact  -------------------------------------------------------- */
-.containercontact{        /* POur centrer le bloc du formulaire en plein milieu de la page */
+       /* POur centrer le bloc du formulaire en plein milieu de la page 
   
-  position: absolute; /* postulat de départ */
+  position: absolute;                                      postulat de départ 
   top: 60%; 
-  left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  left: 50%;                               à 50%/50% du parent référent 
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille 
 
-  
-}
+
+}     */
 /*------------------------------------------FIN Page contact  -------------------------------------------------------- */
