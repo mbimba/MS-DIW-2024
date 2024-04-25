@@ -6,6 +6,12 @@
 
 }
 
+
+.espacebouton{
+  margin: 0 85px;
+}
+
+
 .barrerecherche{               /* Pour fixer la barre de recherche sur la vidéo */
   position: absolute;
   top: 50%;
