@@ -1,13 +1,26 @@
-/* -----------------------------Mon nav entête---------------------------------------------------------- */
 
-
-
-.espace {
-    margin: 0 15px;        /* Pour créer de l'espace entre les éléments du menu "entete" */
-  
- 
-}
 /* ----------------------------------Page accueil ---------------------------------------------------------------------*/
+.espace {
+  margin: 0 15px;        /* Pour créer de l'espace entre les éléments du menu "entete" partie nav */
+
+
+}
+
+.barrerecherche{               /* Pour fixer la barre de recherche sur la vidéo */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+video{        /* La vidéo prend toute la largeur de la page */
+  object-fit: fill;
+}
 
 .zoomimage img:hover{             /* Pour créer l'effet zoom sur les images "catégorie" de la page accueil */
  
