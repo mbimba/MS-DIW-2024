@@ -11,7 +11,7 @@ document.getElementById("carouselcatsuiv").click();
 
 
 /*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************   */
-function envoi() {
+function envoicontact() {
  // test lenom ()
  var nom = document.getElementById("lenom").value;
   var codenom = /^[A-Za-z]+$/;
@@ -48,7 +48,7 @@ var codetel= /^0[1-9]([-. ]?[0-9]{2}){4}$/;
 resultatphone= codetel.test(phone);
 if(resultatphone == false) {
     alert("Veuillez saisir un numéro de téléphone");
-    return false;
+      return false;
 }
 
 //test votredemande()
@@ -56,11 +56,8 @@ var demande = document.getElementById("votredemande").value;
 var codedemande = /^[0-9A-Za-z]+$/;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre 
 resultatdemande= codedemande.test(demande);
 if(resultatdemande == false){
-    alert("N'oubliez pas de saisir la demande");
+    alert("N'oubliez pas de saisir la demande.");
     return false;
 }
 
-
-
-
-}       // Fin function nom ()
+}       // Fin function envoicontact(). Le test ne fonctionne que si je mets le return false du test tel en commentaire.
