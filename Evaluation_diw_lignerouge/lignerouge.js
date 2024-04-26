@@ -9,6 +9,7 @@ function suivant()
 document.getElementById("carouselcatsuiv").click();
 }
 
+
 /*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************   */
 function envoi() {
  // test lenom ()
@@ -52,7 +53,14 @@ if(resultatphone == false) {
 
 //test votredemande()
 var demande = document.getElementById("votredemande").value;
-var codedemande = /^[A-Za-z]+$/;
+var codedemande = /^[0-9A-Za-z]+$/;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre 
+resultatdemande= codedemande.test(demande);
+if(resultatdemande == false){
+    alert("N'oubliez pas de saisir la demande");
+    return false;
+}
+
+
 
 
 }       // Fin function nom ()
