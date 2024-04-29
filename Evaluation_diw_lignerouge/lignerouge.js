@@ -11,6 +11,7 @@ document.getElementById("carouselcatsuiv").click();
 
 
 /*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************   */
+
 function envoicontact() {
  // test lenom ()
  var nom = document.getElementById("lenom").value;
