@@ -77,7 +77,7 @@
         </div>
         <div class="col-md-6">
             <label for="email" class="form-label"><strong>Email</strong></label>
-            <input type="email" class="form-control inputcontact" id="email"  placeholder="dave.loper@afpa.fr" required>
+            <input type="email" class="form-control inputcontact" id="votreemail"  placeholder="dave.loper@afpa.fr" required>
             <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-6">
@@ -87,11 +87,11 @@
         </div>
         <div class="col-md-12">
             <label for="votreadresse" class="form-label"><strong>Votre adresse</strong></label>
-            <textarea class="form-control" id="adresse" rows="3" ></textarea>
+            <textarea class="form-control" id="votreadresse" rows="3" ></textarea>
             <span aria-label="required">Ce champ est obligatoire</span>
                 </div>
                 <div class="col-md-12 d-flex flex-row-reverse">         <!-- "d-flex flex-row-reverse" permet de mettre "envoyer" tout à droite -->
-                <button type="submit" class="btn btn-primary">Envoyer</button>
+                <button type="submit" class="btn btn-primary" onclick="envoicommande ()">Envoyer</button>
             </div>
             </form>
         </div>
@@ -221,6 +221,7 @@
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
   crossorigin="anonymous"></script>
 
+  <script src="lignerouge.js"></script>
 </body>
 
 </html>
