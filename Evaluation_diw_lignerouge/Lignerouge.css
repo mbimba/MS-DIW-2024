@@ -159,4 +159,21 @@ span{
 
 
 }     */
+
+.parallax2{          /* Parallax entre mon image de fond et mes images catégories de plats */
+  background-image:  url("Mesimages/imageparralax12.jpeg");
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+
+
+
+
+
 /*------------------------------------------FIN Page contact  -------------------------------------------------------- */
