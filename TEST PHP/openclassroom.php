@@ -417,15 +417,106 @@ while ($isValid) {
 <?php
 $lines = 1;
 
-while ($lines <= 100) {
+while ($lines <= 10) {
     echo 'Je ne dois pas regarder les mouches voler quand j\'apprends le PHP.<br />';
-    $lines++; // $lines = $lines + 1
+    $lines++; // $lines = $lines + 1                         // Il affiche à l'écran: "je ne dois pas regarder..." 10 fois
 }
 ?>
 
+                         <!--  Un autre exemple avec la boucle :  while     -->
+
+<?php
+$lines = 1;
+
+while ($lines <= 10)
+{
+    echo 'Ceci est la ligne n°' . $lines . '<br />';
+    $lines++;
+}                                     // Il affiche à l'écran: "Ceci est la ligne n°1  ceci est la ligne n°2" n fois jusqu'à la ligne n°10
+?>              
 
 
+<!--    --> 
+<?php
+$users = [
+    [
+        'full_name' => 'Mickaël Andrieu',
+        'email' => 'mickael.andrieu@exemple.com',
+        'age' => 34,
+    ],
+    [
+        'full_name' => 'Mathieu Nebra',
+        'email' => 'mathieu.nebra@exemple.com',
+        'age' => 34,
+    ],
+    [
+        'full_name' => 'Laurène Castor',
+        'email' => 'laurene.castor@exemple.com',
+        'age' => 28,
+    ],
+];
+$lines = 3; // nombre d'utilisateurs dans le tableau
+$counter = 0;
+while ($counter < $lines) {
+    echo $users[$counter]['full_name'] . ' ' . $users[$counter]['email'] . '<br />';
+    $counter++;
+}                                   // Il affiche 3 fois de suite avec des retours à la ligne: Mickaël Andrieu mickael.andrieu@exemple.com Mathieu Nebra mathieu.nebra@exemple.com   Laurène Castor laurene.castor@exemple.com
 
+?>
+
+                            <!-- Découvrez une boucle plus complexe :  FOR   --> 
+
+<?php
+for ($lines = 0; $lines <= 2; $lines++)
+{
+    echo $users[$lines][0] . ' ' . $users[$lines][1] . '<br />';
+}
+?>
+
+            <!-- *********************   Affichez des recettes ***********************  --> 
+<?php
+
+// Déclaration du tableau des recettes
+$recipes = [
+    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
+    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
+];
+                                             // Il affiche uniquement à l'écran: .cassoulet (mickael.andrieu@exemple.com)     .Couscous(mickael.andrieu@exemple.com)
+                                             // La partie html qui est en bas n'apparait pas dans le localhost. Le test ne fonctionne pas si on retire la partie html.
+?>                                  
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Affichage des recettes</title>
+</head>
+<body>
+    <ul>
+        <?php for ($lines = 0; $lines <= 1; $lines++): ?>
+            <li><?php echo $recipes[$lines][0] . ' (' . $recipes[$lines][2] . ')'; ?></li>
+        <?php endfor; ?>
+    </ul>
+</body>
+</html>                     
+<!-- *************************************** FIN "Affichez des recettes" ******************************************************************   --> 
+
+
+<!--    --> 
+<?php 
+
+?>
+
+<!--    --> 
+<?php 
+
+?>
+
+<!--    --> 
+<?php 
+
+?>
+
+<!--    --> 
 
 
 
