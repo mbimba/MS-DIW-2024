@@ -15,9 +15,11 @@ for ($a = 1; $a < 10; $a++) {
 ?>
 
         <!-- Instruction FOREACH   --> 
-<?php 
+<?php  
+echo "plouf";
 foreach ($tableau as $element) { 
     echo $element;               // Il affiche à l'écran:
+    
 } 
 ?>
 
@@ -61,6 +63,37 @@ do {
 
 
 ?>
+
+  <!--    U         -->
+<?php
+for($i=1;$i<10;$i++)
+{
+    for($j=9;$j>0;$j--)
+    //$i varie de 1 à 9 et $j de 9 à 1
+    {
+    echo "<span style=\"border-style:double;border-width:3;\"> $i + $j=10</span> <br />";           // Il affiche un tableau "1+9=10"
+    }
+}
+?>
+
+
+    <!--    Utilisez une boucle simple :  while         OPENCLASSROOM            -->
+                        <?php
+$lines = 1;
+
+while ($lines <= 100) {
+    echo '1.<br />';
+    $lines++; // $lines = $lines + 1
+}                           // IL affiche une longue addition qui donne à chaque fois un résultat de 10
+?>
+
+
+
+
+
+
+
+
 
 
 
