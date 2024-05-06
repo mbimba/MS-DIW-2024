@@ -501,6 +501,61 @@ $recipes = [
 <!-- *************************************** FIN "Affichez des recettes" ******************************************************************   --> 
 
 
+<!--  CONCEVEZ VOTRE SITE WEB AVEC PHP ET MySQL: Organisez vos données à l'aide des tableaux  -->
+                  <!-- Familiarisez-vous avec les tableaux numérotés  -->
+
+<?php
+$recipeTitle = 'Cassoulet';
+echo "La recette du " . $recipeTitle;
+// Il affiche à l'écran : "La recette du Cassoulet"
+?>
+                    <!-- Construisez un tableau numéroté  -->
+<?php
+
+$recipes = ['Cassoulet', 'Couscous', 'Escalope Milanaise', 'Salade César',];
+
+// La fonction array permet aussi de créer un array
+$recipes = array('Cassoulet', 'Couscous', 'Escalope Milanaise');                    
+                                //L'ordre a beaucoup d'importance : - Le premier élément (« Cassoulet») aura le n° 0. - Ensuite Couscous le n° 1. - Etc.
+?>                                  
+
+
+<!-- Le tableau peut aussi être créé manuellement, case par case: -->
+<?php
+$recipes[0] = 'Cassoulet';
+$recipes[1] = 'Couscous';
+$recipes[2] = 'Escalope Milanaise';
+?>
+<!--Si vous ne voulez pas avoir à écrire vous-même le numéro de la case que vous créez, vous pouvez laisser PHP le sélectionner automatiquement en laissant les crochets vides : -->
+<?php
+$recipes[] = 'Cassoulet'; // Créera $recipes[0]
+$recipes[] = 'Couscous'; // Créera $recipes[1]
+$recipes[] = 'Escalope Milanaise'; // Créera $recipes[2]
+?>  
+
+                    <!-- Affichez un tableau numéroté  -->
+<?php
+echo $recipes[1]; // Il affiche à l'écran: Couscous
+?>
+
+
+
+
+
+                    <!-- Familiarisez-vous avec les tableaux associatifs  -->
+                    <!-- Construisez un tableau associatif  -->
+                    <!-- Affichez un tableau associatif  -->
+                    <!-- Parcourez un tableau   -->
+                    <!-- Affichez rapidement un tableau avec print_r  -->
+                    <!-- Recherchez dans un tableau   -->
+                    <!-- Vérifiez si une clé existe dans un tableau avec array_key_exists  -->
+                    <!-- Vérifiez si une valeur existe dans un tableau avec in_array  -->
+                    <!-- Récupétrez la clé d'une valeur dans un tableau avec array_search  -->
+
+
+
+
+
 <!--    --> 
 <?php 
 
@@ -512,12 +567,11 @@ $recipes = [
 ?>
 
 <!--    --> 
+
 <?php 
 
 ?>
-
 <!--    --> 
-
 
 
 </body>
