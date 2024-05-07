@@ -1,14 +1,4 @@
-      <!--         EXERCICE OPENCLASSROOM:   Vous allez créer une page web qui affiche différentes recettes en utilisant les boucles en PHP pour générer le contenu HTML.
-
-Créez le fichier index.php.
-
-Définissez un tableau en PHP contenant quatre recettes. Chaque recette devrait avoir un titre et l'auteur de la recette.
-
-Utilisez une boucle pour parcourir le tableau de recettes.
-
-Pour chaque recette, affichez le titre et l'auteur dans des balises HTML appropriées.
-
-Testez votre page web : vérifiez que les quatre recettes s’affichent avec le titre et l’auteur.      -->
+<!-- OPENCLASSROOM -->
 
 
 <?php
@@ -44,6 +34,23 @@ $recipes = [
     <title>Affichage des recettes</title>
 </head>
 <body>
+<table border=8>
+    <tr>
+    <th>0</th>
+
+<?php for ($i = 0; $i <= 40; $i++): ?>
+
+    <th><?= $i ?></th>
+    <th><?= $i ?></th>
+    <th><?= $i ?></th>
+    <th><?= $i ?></th>
+	</tr>
+<?php endfor; ?>
+    
+    </table>
+
+
+
     <ul>
         <?php for ($lines = 0; $lines <= 3; $lines++) : ?>
             <li><?php echo $recipes[$lines]['title'] . ' (' . $recipes[$lines]['author'] . ')'; ?></li>

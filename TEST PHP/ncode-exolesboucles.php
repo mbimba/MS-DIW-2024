@@ -35,7 +35,7 @@ for ($i = 1; $i <= 500; $i++) {
 
 <!--Question 3: Ecrire un script qui affiche la table de multiplication pour les nombres de 1 à 9 dans un tableau HTML, le résultat ressembler à ceci : -->
         
-<table border=1>
+<table border=8>
 
 		<tr>
 

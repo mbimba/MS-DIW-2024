@@ -6,7 +6,7 @@
     <title> N CODE TEST: Les boucles </title>
 </head>
 <body>
- <!-- N CODE LES BASES DU LANGAGE: Les boucles -->
+ <!-- N CODE LES INSTRUCTIONS CONDITIONNELLES ET LES BOUVLES: Les boucles -->
  <?php 
  echo "Exercice: Les boucles PHP";     //Pour le titre de l'exercice
  echo "<br>" . $a;                     // Pour faire un retour à la ligne
@@ -58,7 +58,8 @@ do {
         break; 
     } 
    // if ( ) .......  
-} while (1);                                    //Pour sortir de la boucle il faut qu'une des conditions soit remplie, ce qui aura pour effet d'exécuter l'instruction break; qui permet de sortir de la boucle. 
+} while (1);             //Pour sortir de la boucle il faut qu'une des conditions soit remplie, ce qui aura pour effet d'exécuter l'instruction break; qui permet de sortir de la boucle. 
+                //Il affiche "a inférieur à 5"
 ?>
 
 
@@ -86,6 +87,7 @@ for($i=1;$i<10;$i++)
     echo "<span style=\"border-style:double;border-width:3;\"> $i + $j=10</span> <br />";           // Il affiche un tableau "1+9=10" n fois
     }
 }
+echo "<br>"
 ?>
 
 

@@ -601,14 +601,188 @@ for ($lines = 0; $lines <= 1; $lines++) {
 }                        // Il affiche à l'écran: cassoulet
 
 ?>
+                    <!-- Parcourez un tableau: avec la boucle foreach   -->
+<?php
+echo "<br>";//echo"<br>" permet de faire un retour à la ligne
+// Déclaration du tableau des recettes
+$recipes = [
+    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
+    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
+];
+
+foreach ($recipes as $recipe) {
+    echo $recipe[0]; // Il affichera à l'écran: Cassoulet, puis Couscous
+} echo "<br>";
+?>
+
+<!-- C'est le même code que tout à l'heure, mais cette fois basé sur une boucle  foreach  .
+
+À chaque tour de boucle, la valeur de l'élément suivant est mise dans la variable  $recipe  .
+
+On peut donc utiliser $recipe uniquement à l'intérieur de la boucle, pour afficher l'élément en cours.
+
+L'avantage de foreach , c'est qu'il permet aussi de parcourir les tableaux associatifs. -->
+
+<?php
+echo "<br>";//echo"<br>" permet de faire un retour à la ligne
+$recipe = [
+    'title' => 'Cassoulet',
+    'recipe' => 'Etape 1 : des flageolets, Etape 2 : ...',
+    'author' => 'mickael.andrieu@exemple.com',
+    'enabled' => true,
+];
+
+foreach ($recipe as $value) {
+    echo $value;
+}       // Il affiche à l'écran: CassouletEtape 1 : des flageolets, Etape 2 : ...mickael.andrieu@exemple.com1
+echo "<br>";
+?>
+
+<!-- L'intérêt devient encore plus flagrant quand nous utilisons un tableau de tableaux : -->
+<?php
+echo "<br>";
+$recipes = [
+    [
+        'title' => 'Cassoulet',
+        'recipe' => '',
+        'author' => 'mickael.andrieu@exemple.com',
+        'is_enabled' => true, 
+    ], 
+    [
+        'title' => 'Couscous',
+        'recipe' => '',
+        'author' => 'mickael.andrieu@exemple.com',
+        'is_enabled' => false,
+    ],
+    [
+        'title' => 'Escalope milanaise',
+        'recipe' => '',
+        'author' => 'mathieu.nebra@exemple.com',
+        'is_enabled' => true,
+    ],
+    [
+        'title' => 'Salade Romaine',
+        'recipe' => '',
+        'author' => 'laurene.castor@exemple.com',
+        'is_enabled' => false,
+    ],
+];
+
+foreach($recipes as $recipe) {
+    echo $recipe['title'] . ' contribué(e) par : ' . $recipe['author'] . PHP_EOL; 
+}
+// Il affiche à l'écran 1ère ligne: Cassoulet contribué(e) par: mickael.andrieu@exemple.com 
+// Il affiche à l'écran 2ème ligne: Couscous contribué(e) par : mickael.andrieu@exemple.com 
+// Il affiche à l'écran 3ème ligne: Escalope milanaise contribué(e) par : mathieu.nebra@exemple.com 
+// Il affiche à l'écran 4ème ligne: Salade Romaine contribué(e) par : laurene.castor@exemple.com 
+?>
+<!-- Toutefois, avec cet exemple, on ne récupère que la valeur. Or, on peut aussi récupérer la clé de l'élément. On doit dans ce cas écrire foreach  , comme ceci : -->
+<?php foreach($recipe as $property => $propertyValue) ?>
+
+<!-- Testons le fonctionnement avec un exemple :-->
+<?php
+echo "<br>";
+$recipe = [
+    'title' => 'Salade Romaine',
+    'recipe' => 'Etape 1 : Lavez la salade ; Etape 2 : euh ...',
+    'author' => 'laurene.castor@exemple.com',
+];
+
+foreach($recipe as $property => $propertyValue)
+{
+    echo '[' . $property . '] vaut ' . $propertyValue . PHP_EOL;
+}  
+echo "<br>";       
+?>          <!-- IL affiche à l'écran: $ php exemple.php 
+                                       [title] vaut Salade Romaine
+                                       [recipe] vaut Etape 1 : Lavez la salade ; Etape 2 : euh ...
+                                       [author] vaut laurene.castor@exemple.com  -->
+
+
+
                     <!-- Affichez rapidement un tableau avec print_r  -->
-                    <!-- Recherchez dans un tableau   -->
-                    <!-- Vérifiez si une clé existe dans un tableau avec array_key_exists  -->
+<?php
+echo "<br>";
+$recipes = [
+    [
+        'title' => 'Cassoulet',
+        'recipe' => '',
+        'author' => 'mickael.andrieu@exemple.com',
+        'is_enabled' => true,
+    ],
+    [
+        'title' => 'Couscous',
+        'recipe' => '',
+        'author' => 'mickael.andrieu@exemple.com',
+        'is_enabled' => false,
+    ],
+];
+
+echo '<pre>';
+print_r($recipes);
+echo '</pre>';
+?>  
+
+                     <!-- Vérifiez si une clé existe dans un tableau avec array_key_exists  -->
+<?php
+echo "<br>";
+$recipe = [
+    'title' => 'Salade Romaine',
+    'recipe' => 'Etape 1 : Lavez la salade ; Etape 2 : euh ...',
+    'author' => 'laurene.castor@exemple.com',
+];
+
+if (array_key_exists('title', $recipe))
+{
+    echo 'La clé "title" se trouve dans la recette !';
+}
+
+if (array_key_exists('commentaires', $recipe))
+{
+    echo 'La clé "commentaires" se trouve dans la recette !';
+}                           // Il affiche à l'écran: La clé "title" se trouve dans la recette!
+echo "<br>";                    
+?> 
+
+    
+          
                     <!-- Vérifiez si une valeur existe dans un tableau avec in_array  -->
+<?php
+echo "<br>";
+$users = [
+    'Mathieu Nebra',
+    'Mickaël Andrieu',
+    'Laurène Castor',
+];
+
+if (in_array('Mathieu Nebra', $users))
+{
+    echo 'Mathieu fait bien partie des utilisateurs enregistrés !';
+}
+
+if (in_array('Arlette Chabot', $users))
+{
+    echo 'Arlette fait bien partie des utilisateurs enregistrés !';
+}                                  // Il affiche à l'écran: Mathieu fait bien partie des utilisateurs enregistrés !
+echo "<br>";
+?>  
                     <!-- Récupétrez la clé d'une valeur dans un tableau avec array_search  -->
 
+<?php
+echo "<br>";
+$users = [
+    'Mathieu Nebra',
+    'Mickaël Andrieu',
+    'Laurène Castor',
+];
 
+$positionMathieu = array_search('Mathieu Nebra', $users);
+echo '"Mathieu" se trouve en position ' . $positionMathieu . PHP_EOL;
 
+$positionLaurène = array_search('Laurène Castor', $users);
+echo '"Laurène" se trouve en position ' . $positionLaurène . PHP_EOL;           // Il affiche à l'écran: "Mathieu" se trouve en position 0 "Laurène" se trouve en position 2 
+echo "<br>";
+?> 
 
 
 <!--    --> 
