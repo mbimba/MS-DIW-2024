@@ -30,6 +30,7 @@
         /* Encore du PHP
         Toujours du PHP */
         echo "Ceci est du texte";
+        echo "<br>";   
 
     ?>
 
@@ -64,6 +65,7 @@
 echo "J'habite en Chine."; // Cette ligne indique où j'habite
 
 // La ligne suivante indique mon âge
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 echo "J'ai 92 ans.";
 ?>
 
@@ -72,6 +74,7 @@ echo "J'ai 92 ans.";
 /* La ligne suivante indique mon âge
 Si vous ne me croyez pas...
 ... vous avez raison ;o) */
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne 
 echo "J'ai 92 ans.";
 ?>
 
@@ -98,6 +101,7 @@ $variable = 'Je m\'appelle Mathieu';
 
 <!-- Concaténez une variable -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $fullname = "Mathieu Nebra";
 echo "Bonjour ";
 echo $fullname;
@@ -106,12 +110,14 @@ echo " et bienvenue sur le site !";
 
 <!-- Concaténez une variable sur une ligne: La concaténaion se fait avec des guillemets doubles -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
     $fullname = "Mathieu Nebra";
     echo "Bonjour {$fullname} et bienvenue sur le site !";
 ?>
 
 <!-- Concaténez avec des guillemets simples -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
     $fullname = 'Mathieu Nebra';
     echo 'Bonjour ' . $fullname . ' et bienvenue sur le site !'; // OK
 ?>
@@ -131,6 +137,7 @@ $number = (1 + 2) * 2; // $number prend la valeur 6
 
 
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $number = 10;
 $result = ($number + 5) * $number; // $result prend la valeur 150
 echo $result;
@@ -146,6 +153,7 @@ $number = 7 % 4;// $number prend la valeur 3 car il reste 3
 <!--   ADAPTEZ LE COMPORTEMENT DE VOTRE APPLICATION A L'AIDE DES CONDITIONS  -->
 <!-- Utilisez la structure  if… else -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $isEnabled = true; // La condition d'accès
 
 if ($isEnabled === true) {
@@ -154,6 +162,7 @@ if ($isEnabled === true) {
 ?>
 <!--          -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $isEnabled = true;
 
 if ($isEnabled === true) {
@@ -166,6 +175,7 @@ else {
 
 <!--                  -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $isAllowedToEnter = "Oui";
 
 // SI on a l'autorisation d'entrer
@@ -195,6 +205,7 @@ else {
 <!--     Vérifier si la variable précédente vaut False -->
 
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $isAllowedToEnter = true;
 
 // Si pas autorisé
@@ -205,6 +216,7 @@ if (! $isAllowedToEnter) {      // if (! $isAllowedToEnter) = if ($isAllowedToEn
 
 <!--  Posez des conditions multiples -->
 <?php
+
 $isEnabled = true;
 $isOwner = false;
 
@@ -217,6 +229,7 @@ if ($isEnabled && $isOwner) {
 
 <!--                  -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $isEnabled = true;
 $isOwner = false;
 $isAdmin = true;
@@ -286,7 +299,8 @@ else {
 }
 ?>
                   <!--  on peut utiliser une autre structure plus souple : c'est "switch". Voici le même exemple avec switch   -->
-                  <?php
+<?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $grade = 10;
 
 switch ($grade) // on indique sur quelle variable on travaille
@@ -327,6 +341,7 @@ switch ($grade) // on indique sur quelle variable on travaille
 
         <!--  Prenons cet exemple à base de if… else  qui met un booléen $majeur  à vrai ou faux selon l'âge du visiteur :  -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $userAge = 24;
 
 if ($userAge >= 18) {
@@ -359,6 +374,7 @@ $isAdult = ($userAge >= 18);
 ?>     
 <!--  FORCER LE TYPE D'UNE VARIABLE: Cours N Code  -->
 <?php
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $a = 15.125863;
 settype($a, "integer"); 
 echo $a; // affiche 15
@@ -367,7 +383,7 @@ echo $a; // affiche 15
 <!--  CONCEVEZ VOTRE SITE WEB AVEC PHP ET MySQL: Afficher une liste de recettes à l'aide des boucles  -->
                   <!-- Utilisez un tableau pour lister des éléments  -->
 <?php
-
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 // Premier utilisateur
 $userName1 = 'Mickaël Andrieu';
 $userEmail1 = 'mickael.andrieu@exemple.com';
@@ -385,12 +401,12 @@ $userAge2 = 28;
                     <!--      POur afficher la formule précédente           -->
 
 <?php
-
 $user1 = ['Mickaël Andrieu', 'email', 'S3cr3t', 34];
 
 echo $user1[0]; // "Mickaël Andrieu"
 echo $user1[1]; // "email"
 echo $user1[3]; // 34                       // Il affiche à l'écran: Mickaël Andrieuemail34 
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>
 
                      <!--                 -->
@@ -403,6 +419,7 @@ $laurene = ['Laurène Castor', 'laurene.castor@exemple.com', 'P4ssw0rD', 28];
 $users = [$mickael, $mathieu, $laurene];
 
 echo $users[1][1]; // Il affiche "mathieu.nebra@exemple.com"
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>
 
                          <!--    Utilisez une boucle simple :  while             -->
@@ -421,6 +438,7 @@ while ($lines <= 10) {
     echo 'Je ne dois pas regarder les mouches voler quand j\'apprends le PHP.<br />';
     $lines++; // $lines = $lines + 1                         // Il affiche à l'écran: "je ne dois pas regarder..." 10 fois
 }
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>
 
                          <!--  Un autre exemple avec la boucle :  while     -->
@@ -433,6 +451,7 @@ while ($lines <= 10)
     echo 'Ceci est la ligne n°' . $lines . '<br />';
     $lines++;
 }                                     // Il affiche à l'écran: "Ceci est la ligne n°1  ceci est la ligne n°2" n fois jusqu'à la ligne n°10
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>              
 
 
@@ -461,7 +480,7 @@ while ($counter < $lines) {
     echo $users[$counter]['full_name'] . ' ' . $users[$counter]['email'] . '<br />';
     $counter++;
 }                                   // Il affiche 3 fois de suite avec des retours à la ligne: Mickaël Andrieu mickael.andrieu@exemple.com Mathieu Nebra mathieu.nebra@exemple.com   Laurène Castor laurene.castor@exemple.com
-
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>
 
                             <!-- Découvrez une boucle plus complexe :  FOR   --> 
@@ -511,7 +530,7 @@ echo "La recette du " . $recipeTitle;
 ?>
                     <!-- Construisez un tableau numéroté  -->
 <?php
-
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 $recipes = ['Cassoulet', 'Couscous', 'Escalope Milanaise', 'Salade César',];
 
 // La fonction array permet aussi de créer un array
@@ -525,6 +544,7 @@ $recipes = array('Cassoulet', 'Couscous', 'Escalope Milanaise');
 $recipes[0] = 'Cassoulet';
 $recipes[1] = 'Couscous';
 $recipes[2] = 'Escalope Milanaise';
+echo "<br>";                                     //echo"<br>" permet de faire un retour à la ligne
 ?>
 <!--Si vous ne voulez pas avoir à écrire vous-même le numéro de la case que vous créez, vous pouvez laisser PHP le sélectionner automatiquement en laissant les crochets vides : -->
 <?php
@@ -535,17 +555,52 @@ $recipes[] = 'Escalope Milanaise'; // Créera $recipes[2]
 
                     <!-- Affichez un tableau numéroté  -->
 <?php
+echo "<br>";                //echo"<br>" permet de faire un retour à la ligne
 echo $recipes[1]; // Il affiche à l'écran: Couscous
+echo "<br>";                 //echo"<br>" permet de faire un retour à la ligne
 ?>
-
-
-
-
 
                     <!-- Familiarisez-vous avec les tableaux associatifs  -->
                     <!-- Construisez un tableau associatif  -->
+<?php
+// Une bien meilleure façon de stocker une recette !
+$recipe = [
+    'title' => 'Cassoulet',
+    'recipe' => 'Etape 1 : des flageolets, Etape 2 : ...',
+    'author' => 'john.doe@exemple.com',
+    'enabled' => true,
+];
+
+?>
+  <!-- Il est aussi possible de créer le tableau case par case, comme ceci :  -->
+<?php
+$recipe['title'] = 'Cassoulet';
+$recipe['recipe'] = 'Etape 1 : des flageolets, Etape 2 : ...';
+$recipe['author'] = 'john.doe@exemple.com';
+$recipe['enable'] = true;
+?>
                     <!-- Affichez un tableau associatif  -->
-                    <!-- Parcourez un tableau   -->
+<?php
+echo $recipe['title'];              // Il affiche à l'écran: cassoulet
+?>
+                    <!-- Parcourez un tableau: avec la boucle for   -->
+<?php
+echo "<br>";   //echo"<br>" permet de faire un retour à la ligne
+/**
+ * Déclaration du tableau des recettes
+ * Chaque élément du tableau est un tableau numéroté (une recette)
+ */
+$recipes = [
+    ['Cassoulet','[...]','mickael.andrieu@exemple.com',true,],
+    ['Couscous','[...]','mickael.andrieu@exemple.com',false,],
+];
+
+for ($lines = 0; $lines <= 1; $lines++) {
+    echo $recipes[$lines][0];
+    echo "<br>";//echo"<br>" permet de faire un retour à la ligne
+}                        // Il affiche à l'écran: cassoulet
+
+?>
                     <!-- Affichez rapidement un tableau avec print_r  -->
                     <!-- Recherchez dans un tableau   -->
                     <!-- Vérifiez si une clé existe dans un tableau avec array_key_exists  -->

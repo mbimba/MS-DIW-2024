@@ -7,15 +7,21 @@
 </head>
 <body>
  <!-- N CODE LES BASES DU LANGAGE: Les boucles -->
+ <?php 
+ echo "Exercice: Les boucles PHP";     //Pour le titre de l'exercice
+ echo "<br>" . $a;                     // Pour faire un retour à la ligne
+ ?>
          <!-- Instruction FOR   -->       
 <?php 
 for ($a = 1; $a < 10; $a++) { 
     echo $a;            // Il affiche à l'écran: " 123456789".
+    
 } 
 ?>
 
         <!-- Instruction FOREACH   --> 
-<?php  
+<?php 
+echo "<br>";   //echo"<br>" permet de faire un retour à la ligne
 echo "plouf";
 foreach ($tableau as $element) { 
     echo $element;               // Il affiche à l'écran:
@@ -26,6 +32,7 @@ foreach ($tableau as $element) {
 <!--  Instruction WHILE  --> 
                     <!--  Exemple  --> 
 <?php 
+echo "<br>";    //echo"<br>" permet de faire un retour à la ligne
 $a = 1; 
 while ($a < 10) { 
     echo $a;                        
@@ -35,6 +42,7 @@ while ($a < 10) {
 
 <!--  Instruction DO..WHILE  --> 
 <?php 
+echo "<br>";      //echo"<br>" permet de faire un retour à la ligne
 $a = 0; 
 
 do { 
@@ -43,6 +51,7 @@ do {
 ?>
                  <!--  Une autre façon d'utiliser cette boucle est de réaliser une boucle sans fin.  --> 
 <?php 
+echo "<br>";                     //echo"<br>" permet de faire un retour à la ligne
 do { 
     if ($a < 5) { 
         echo "a inférieur à 5"; 
@@ -52,10 +61,7 @@ do {
 } while (1);                                    //Pour sortir de la boucle il faut qu'une des conditions soit remplie, ce qui aura pour effet d'exécuter l'instruction break; qui permet de sortir de la boucle. 
 ?>
 
-<!-- EXERCICES: 
-1.Ecrire un script PHP qui affiche tous les nombres impairs entre 0 et 150, par ordre croissant : 1 3 5 7...
-2.Écrire un programme qui écrit 500 fois la phrase Je dois faire des sauvegardes régulières de mes fichiers
-3.Ecrire un script qui affiche la table de multiplication pour les nombres de 1 à 9 dans un tableau HTML, le résultat ressembler à ceci :--> 
+
 
 <?php 
 
@@ -71,6 +77,7 @@ do {
 
   <!--             -->
 <?php
+echo "<br>";            //echo"<br>" permet de faire un retour à la ligne
 for($i=1;$i<10;$i++)
 {
     for($j=9;$j>0;$j--)
