@@ -145,7 +145,7 @@ $capitales = array(
     "Zagreb" => "Croatie"
 );
 
-$nb= count ($capitales);            //Count compte lz nombre d'éléments dans un tableau
+$nb= count ($capitales);            //Count compte le nombre d'éléments dans un tableau
 
 ksort($capitales);              //Pour trier le tableau par ordre alphabétique
 foreach($capitales as $cle => $valeur) 
