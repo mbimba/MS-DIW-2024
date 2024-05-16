@@ -82,22 +82,80 @@ echo $message;
 <h2>Montrez que la date du 32/17/2019 est erronée.</h2>
 
 <?php
-var_dump(checkdate(17, 32, 2019));              //Mois/Jour/Année    Mois: doit compris entre 1 et 12.  Jour: Le jour doit être un jour autorisé par le mois donné. Les années bissextiles sont prises en compte.  Année:L'année est comprise entre 1 et 32767 inclus. 
+var_dump(checkdate(17, 32, 2019));              //Mois/Jour/Année    Mois: doit être compris entre 1 et 12.  Jour: Le jour doit être un jour autorisé par le mois donné. Les années bissextiles sont prises en compte.  Année:L'année est comprise entre 1 et 32767 inclus. 
                         //Retourne true si la date fournie est valide, false sinon. 
 ?>
+<!-- ****************************** -->
+
+<h2>Montrez que la date du 32/17/2019 est erronée: version 2</h2>
+
+<?php
+$oDate =  DateTime::createFromFormat("d/m/Y H:i:s", "32/17/2019 03:42:11");
+
+$errors = DateTime::getLastErrors();
+
+if ($errors["error_count"]>0 || $errors["warning_count"]>0) {
+    echo "ARGHHHH !";               //Retourne "ARGHHHH !" si la date fournie est invalide
+}
+
+?>
+<!-- ****************************** -->
+
+<h2>Affichez l'heure courante sous cette forme : 11h25</h2>
+
+<?php
+$heure = date("H\hi");
+$message = " Il est ".$heure. "<br />";
+echo $message;                              // Il affiche l'heure à l'instant t: "il est 10h30"
+?>
+
+
 
 <!-- ****************************** -->
 
-<h2></h2>
+<h2>Ajoutez 1 mois à la date courante.</h2>
 
 <?php
+
+$Moisheure = date("F H\hi");
+$message = " On est en ".$Moisheure. "<br />";
+echo $message;                              // Il affiche: "On est en May 11h06"
 
 ?>
 
 <!-- ****************************** -->
 
-<h2></h2>
+
+<h2>Ajoutez 1 mois à la date courante: Version 2</h2>
+<?php
+         // d=jour par exemple la date du 22
+           // F= mous par exemple le mois de décembre
+          // o = année 
+
+
+
+
+          echo 'Nous sommes le '. date('d F Y à H\hi',  time()).' ';            // Il affiche: Nous sommes le 16 May 2024 à 11h06 
+?>
+
+<!-- ****************************** -->
+
+<h2>Que s'est-il passé le 1000200000</h2>
 
 <?php
-
+$dt= 1000200000;
+echo date( "d/m/Y H:i:s", $dt );            //Il affiche: 11/09/2001 11:20:00 
 ?>
+
+
+<!-- ****************************** -->
+
+<h2></h2>
+<?php
+echo date_franc();
+?>
+
+
+
+</body>
+</html>
