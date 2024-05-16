@@ -152,7 +152,7 @@ echo date( "d/m/Y H:i:s", $dt );            //Il affiche: 11/09/2001 11:20:00
 
 <h2></h2>
 <?php
-echo date_franc();
+
 ?>
 
 
