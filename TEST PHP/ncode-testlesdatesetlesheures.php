@@ -6,7 +6,7 @@
     <title> N CODE TEST: LES DATES ET LES HEURES </title>
 </head>
 <body>
- <!-- N CODE LES FONCTIONS: Les tableaux -->
+ <!-- N CODE LES LES DATES ET LES HEURES -->
  <h1> N CODE TEST: DATES ET LES HEURES </h1>
 <h2> La notion de timestamps </h2>
 

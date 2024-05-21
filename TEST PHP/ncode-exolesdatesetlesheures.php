@@ -6,7 +6,7 @@
     <title> N CODE EXERCICE: LES DATES ET LES HEURES </title>
 </head>
 <body>
- <!-- N CODE LES FONCTIONS: Les tableaux -->
+ <!-- N CODE LES DATES ET LES HEURES-->
  <h1> N CODE EXERCICE: LES DATES ET LES HEURES </h1>
 <h2> Trouvez le numéro de semaine de la date suivante : 14/07/2019. </h2>
 

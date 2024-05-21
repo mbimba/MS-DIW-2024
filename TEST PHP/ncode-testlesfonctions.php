@@ -6,7 +6,7 @@
     <title> N CODE TEST: Les fonctions </title>
 </head>
 <body>
- <!-- N CODE LES FONCTIONS: Les tableaux -->
+ <!-- N CODE LES FONCTIONS -->
  <h1> N CODE TEST: LES FONCTIONS PHP </h1>
 <h2> Définition</h2>
 
