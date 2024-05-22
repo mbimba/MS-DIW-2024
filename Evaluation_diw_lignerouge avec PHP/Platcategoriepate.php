@@ -8,34 +8,12 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="Lignerouge.css" rel="stylesheet">
 
-    <body style="background-color: #4A394a;">
-      <header>
-        <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
-          <div class="container-fluid-flex">
-            <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80" alt="">
-          </div>
-          <div class="container-fluid d-flex justify-content-evenly " >
-            <ul class="navbar-nav">
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link  espace" href="Accueil.html">Accueil</a>
-              </li>
-              <li class="nav-item col-sm-4 "> 
-                <a class="nav-link espace" href="Catégorie.html">Catégorie</a>
-              </li>
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link active espace" href="Touslesplats.html">Plat</a>
-              </li>
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link espace " href="Contact.html">Contact</a>
-              </li>
-            </ul>
-           
-          </div>
-        </nav>
-  
-      </header>
-
+<body style="background-color: #4A394a;">
+   
+  <!--     Header        SANS L'ONGLET DE RECHERCHE      -->
+<?php
+require_once ("php/header.php");
+?>
 
 
       <div class="image-container position-relative"> <!--        ICI MON MA VIDEO DE FOND SANS L'ONGLET DE RECHERCHE    -->
@@ -69,7 +47,7 @@
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> PÂTES AUX BOULETTES DE BOEUF</h5>
               <p class="card-text tailledescriplat"><i>Pâtes maison</i></p>
-              <a href="Commande.html" class="btn btn-dark tailletextcommand">Commander</a>
+              <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
     </div>
@@ -84,7 +62,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES CARBONARA</h5>
                   <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche</i></p>
-                  <a href="Commande.html" class="btn btn-dark tailletextcommand">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -99,7 +77,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES AU SAUMON</h5>
                   <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche</i></p>
-                  <a href="Commande.html" class="btn btn-dark tailletextcommand">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -115,7 +93,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES AUX ÉPINARDS</h5>
                   <p class="card-text tailledescriplat"><i>Pâtes maison avec des épinards frais</i></p>
-                  <a href="Commande.html" class="btn btn-dark tailletextcommand">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -129,12 +107,12 @@
 <button class="carousel-control-prev d-none" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button"><a href="Platcategorieburger.html">Précédent</a></button>
+<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button"><a href="Platcategorieburger.php">Précédent</a></button>
 
 
 <button class="carousel-control-next d-none" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button"><a href="Platcategoriesandwich.html">Suivant</a></button>
+<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button"><a href="Platcategoriesandwich.php">Suivant</a></button>
 
 
 </div>
@@ -142,56 +120,12 @@
 
 
 
-<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
-
-<footer class="text-center" style="background-color: #4A394a;">
-  <!-- Grid container -->
-  <div class="container p-4 ">
-    <!-- Section: Images -->
-    <section class="mb-4">
-      <div class="row ">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/facebook2.png" class="auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section: Images -->
-  </div>
-
-</footer>
+<!--         ICI MON FOOTER OU PIED DE PAGE AVEC LES LOGOS    -->
+<?php
+require_once ('php/footer.php');
+?>
+    
+ 
 
 
 

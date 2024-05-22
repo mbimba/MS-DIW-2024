@@ -9,32 +9,11 @@
     <link href="Lignerouge.css" rel="stylesheet">
 
     <body style="background-color: #4A394a;">
-      <header>
-        <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
-          <div class="container-fluid-flex">
-            <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80" alt="">
-          </div>
-          <div class="container-fluid d-flex justify-content-evenly " >
-            <ul class="navbar-nav">
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link  espace" href="Accueil.html">Accueil</a>
-              </li>
-              <li class="nav-item col-sm-4 "> 
-                <a class="nav-link espace" href="Catégorie.html">Catégorie</a>
-              </li>
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link active espace" href="Touslesplats.html">Plat</a>
-              </li>
-              <li class="nav-item col-sm-4 ">
-                <a class="nav-link espace " href="Contact.html">Contact</a>
-              </li>
-            </ul>
-           
-          </div>
-        </nav>
-  
-      </header>
+    
+      <!--        Header     -->
+<?php
+require_once ("php/header.php");
+?>   
 
 
 
@@ -70,7 +49,7 @@
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> BOULETTES DE LEGUMES</h5>
               <p class="card-text tailledescriplat"><i>Boulettes de pois chiche et pommes de terre accompagnée d'une sauce tomate</i></p>
-              <a href="Commande.html" class="btn btn-dark">Commander</a>
+              <a href="Commande.php" class="btn btn-dark">Commander</a>
             </div>
           </div>
     </div>
@@ -85,7 +64,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">TABOULÉ</h5>
                   <p class="card-text tailledescriplat"><i>Avec du couscous et des légumes de saison</i></p>
-                  <a href="Commande.html" class="btn btn-dark">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>
             </div>
@@ -100,7 +79,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BURGER</h5>
                   <p class="card-text tailledescriplat"><i>Fait maison. A composer</i></p>
-                  <a href="Commande.html" class="btn btn-dark">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>
             </div>
@@ -116,7 +95,7 @@
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SALADE DE POIS CHICHE</h5>
                   <p class="card-text tailledescriplat"><i>Un mélange de pois chice et d'autres légumes de la région</i></p>
-                  <a href="Commande.html" class="btn btn-dark">Commander</a>
+                  <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>
             </div>
@@ -130,12 +109,12 @@
 <button class="carousel-control-prev d-none" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
 
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button"><a href="Platcategoriegrillade.html">Précédent</a></button>
+<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button"><a href="Platcategoriegrillade.php">Précédent</a></button>
 
 
 <button class="carousel-control-next d-none" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button"><a href="Platcategorieasiatique.html">Suivant</a></button>
+<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button"><a href="Platcategorieasiatique.php">Suivant</a></button>
 
 
 </div>
@@ -143,56 +122,12 @@
 
 
 
-<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
-
-<footer class="text-center" style="background-color: #4A394a;">
-  <!-- Grid container -->
-  <div class="container p-4 ">
-    <!-- Section: Images -->
-    <section class="mb-4">
-      <div class="row ">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/facebook2.png" class="auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section: Images -->
-  </div>
-
-</footer>
+<!--         ICI MON FOOTER OU PIED DE PAGE AVEC LES LOGOS    -->
+<?php
+require_once ('php/footer.php');
+?>
+    
+ 
 
 
 

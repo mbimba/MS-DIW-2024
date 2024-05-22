@@ -11,37 +11,16 @@
   
   </head>
 <body style="background-color: #4A394a;">
-    <header>
-      <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
-        <div class="container-fluid-flex ">
-          <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80" alt="">
-        </div>
-        <div class="container-fluid d-flex justify-content-evenly " >
-          <ul class="navbar-nav">
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link active espace" href="Accueil.html">Accueil</a>
-            </li>
-            <li class="nav-item col-sm-4 "> 
-              <a class="nav-link espace" href="Catégorie.html">Catégorie</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace" href="Touslesplats.html">Plat</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace " href="Contact.html">Contact</a>
-            </li>
-          </ul>
-         
-        </div>
-      </nav>
-
-    </header>
+    
+      <!--     Header        SANS L'ONGLET DE RECHERCHE      -->
+  <?php
+require_once ("php/header.php");
+  ?>
 
     <div class="parallax">       <!--         DEBUT PARALLAX    -->
       
      
-      <div class="image-container position-relative"> <!--        ICI MON MA VIDEO DE FOND + L'ONGLET DE RECHERCHE    -->
+      <div class="image-container position-relative"> <!--        ICI MA VIDEO DE FOND + L'ONGLET DE RECHERCHE    -->
         <div class="row g-0"> <!--Ici mon image de fond -->
       
           <!-- <div class="image-container">   Ici mon image de fond 
@@ -51,14 +30,17 @@
           <video id="video" class="col-12" src="images_the_district/11659-231758756_small.mp4"
             style="width:100vmax; height: 20vmax;" playsinline autoplay loop muted></video>
         </div>
-      
+            <!--        Mon onglet recherche   -->
         <div class="barrerecherche">
           <form class="d-flex">
       
             <input class="form-control mr-sm-2" type="search" id="maRecherche" name="" placeholder="search" />
             <button class="rounded-5" style="color: #4f48b1;">Recherche</button>
       
-          </form>
+          </form>   
+     
+
+    
         </div>
       
       </div>
@@ -76,7 +58,7 @@
     <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
       <div class="img-fluid ">
         <h1>ASIATIQUE</h1>
-        <a href="Platcategorieasiatique.html">
+        <a href="Platcategorieasiatique.php">
           <img class="rounded-circle mx-auto d-block " src="images_the_district/category/asian_food_cat2a.jpg" alt="">
         </a>
       </div>
@@ -85,7 +67,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
       <div class="img-fluid ">
         <h1>BURGERS</h1>
-        <a href="Platcategorieburger.html">
+        <a href="Platcategorieburger.php">
           <img class="rounded-circle mx-auto d-block" src="images_the_district/category/burger_cat.jpg" alt="">
         </a>
       </div>
@@ -94,7 +76,7 @@
     <div class="col-sm-4 p-3 bg-dark  text-white ">
       <div class="img-fluid zoomimage">
         <h1>PÂTES</h1>
-        <a href="Platcategoriepate.html">
+        <a href="Platcategoriepate.php">
           <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pasta_cat.jpg" alt="">
         </a>
       </div>
@@ -110,7 +92,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white">
       <div class="img-fluid zoomimage">
         <h1>SANDWICHS</h1>
-        <a href="Platcategoriesandwich.html">
+        <a href="Platcategoriesandwich.php">
           <img class="rounded-circle mx-auto d-block" src="images_the_district/category/wrap_cat.jpg" alt="">
         </a>
       </div>
@@ -120,7 +102,7 @@
     <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
       <div class="img-fluid zoomimage">
         <h1>PIZZAS</h1>
-        <a href="Platcategoriepizza.html">
+        <a href="Platcategoriepizza.php">
           <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pizza_cat.jpg" alt="">
         </a>
       </div>
@@ -129,7 +111,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
       <div class="img-fluid zoomimage">
         <h1>SALADES</h1>
-        <a href="Platcategoriesalade.html">
+        <a href="Platcategoriesalade.php">
           <img class="rounded-circle mx-auto d-block" src="images_the_district/category/salade_cat.jpg" alt="">
         </a>
       </div>
@@ -169,59 +151,15 @@
 
 </div>            <!--         FIN PARALLAX    -->
 
-<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
 
+
+
+
+<!--         ICI MON FOOTER OU PIED DE PAGE AVEC LES LOGOS    -->
+<?php
+require_once ('php/footer.php');
+?>
     
-
-      <footer class="" style="background-color: #4A394a;">
-        <!-- Grid container -->
-        <div class="container p-4 ">
-          <!-- Section: Images -->
-          <section class="mb-4">
-            <div class="row ">
-              <div class="col-lg-2 col-md-12 mb-4 mb-md-0 zoomimage">
-                <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso" >
-                  <a href="#">
-                    <img src="images_the_district/the_district_brand/facebook2.png" class="w-auto"  alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-                  <a href="#">
-                    <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-                  <a href="#">
-                    <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto" alt="">
-                  </a>
-                </div>
-              </div>
-              <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                <div  class="bg-image hover-overlay shadow-1-strong rounded meslogosreso" >
-                  <a href="#">
-                    <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto" alt="">
-                  </a>
-                </div>
-              </div>
-            
-                <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
-                  <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso" >
-                    <a href="#">
-                      <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto" alt="">
-                    </a>
-                  </div>
-                </div>
-              </div>
-          </section>
-          <!-- Section: Images -->
-        </div>
- 
-    </footer>
-
 
 
      

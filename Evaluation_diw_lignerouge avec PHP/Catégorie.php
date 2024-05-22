@@ -12,30 +12,12 @@
 
 
 <body style="background-color: #4A394a;">
-    <header>
-      <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
-        <div class="container-fluid-flex">
-          <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80" alt="">
-        </div>
-        <div class="container-fluid d-flex justify-content-evenly " >
-          <ul class="navbar-nav">
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link  espace" href="Accueil.html">Accueil</a>
-            </li>
-            <li class="nav-item col-sm-4 "> 
-              <a class="nav-link active espace" href="Catégorie.html">Catégorie</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace" href="Touslesplats.html">Plat</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace " href="Contact.html">Contact</a>
-            </li>
-          </ul>
-         
-        </div>
-      </nav>
+
+      <!--        Header     -->
+<?php
+require_once ("php/header.php");
+?>   
+
 
 
       <div class="image-container position-relative"> <!--        ICI MON MA VIDEO DE FOND SANS L'ONGLET DE RECHERCHE    -->
@@ -52,7 +34,7 @@
       </div>
 
 
-    </header>
+    
 
     <!--            ****************************** 1ER CAROUSEL AVEC 4 IMAGES  ********************************************************    -->
 
@@ -68,7 +50,7 @@
                 <div class="card-group">     <!--            ****************** 1ER CAROUSEL AVEC 4 IMAGES  *************************    -->
                     <!-- Ajouter des cartes ici selon besoin -->
                     <div class="img-fluid col-sm-3 p-3 bg-dark text-white ">
-                        <a href="Platcategorieasiatique.html">
+                        <a href="Platcategorieasiatique.php">
                         <img class="rounded-circle mx-auto d-block" src="images_the_district/category/asian_food_cat2a.jpg"  alt="...">
                         </a>
                         <div class="card-body">
@@ -79,7 +61,7 @@
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
                     <!-- Ajouter des cartes ici selon besoin -->
                     <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                        <a href="Platcategorieburger.html">
+                        <a href="Platcategorieburger.php">
                         <img class="rounded-circle mx-auto d-block" src="images_the_district/category/burger_cat.jpg"  alt="...">
                     </a>
                         <div class="card-body">
@@ -90,7 +72,7 @@
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
                     <!-- Ajouter des cartes ici selon besoin -->
                     <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                        <a href="Platcategoriepate.html">
+                        <a href="Platcategoriepate.php">
                         <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pasta_cat.jpg" alt="...">
                         </a>
                         <div class="card-body">
@@ -101,7 +83,7 @@
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
                     <!-- Ajouter des cartes ici selon besoin -->
                     <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                        <a href="Platcategoriesandwich.html">
+                        <a href="Platcategoriesandwich.php">
                         <img class="rounded-circle mx-auto d-block" src="images_the_district/category/wrap_cat.jpg"  alt="...">
                         </a>
                         <div class="card-body">
@@ -117,7 +99,7 @@
             <div class="card-group">      
                 <!-- Ajouter des cartes ici selon besoin -->
                 <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                    <a href="Platcategoriepizza.html">
+                    <a href="Platcategoriepizza.php">
                     <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pizza_cat.jpg"  alt="...">
                     </a>
                     <div class="card-body">
@@ -128,7 +110,7 @@
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
                 <!-- Ajouter des cartes ici selon besoin -->
                 <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                    <a href="Platcategoriesalade.html">
+                    <a href="Platcategoriesalade.php">
                     <img class="rounded-circle mx-auto d-block" src="images_the_district/category/salade_cat.jpg"  alt="...">
                     </a>
                     <div class="card-body">
@@ -139,7 +121,7 @@
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
                 <!-- Ajouter des cartes ici selon besoin -->
                 <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                    <a href="Platcategoriegrillade.html">
+                    <a href="Platcategoriegrillade.php">
                     <img class="rounded-circle mx-auto d-block" src="images_the_district/category/grillade.jpg"  alt="...">
                     </a>
                     <div class="card-body">
@@ -150,7 +132,7 @@
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
                 <!-- Ajouter des cartes ici selon besoin -->
                 <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
-                    <a href="Platcategorievegan.html">
+                    <a href="Platcategorievegan.php">
                     <img class="rounded-circle mx-auto d-block" src="images_the_district/category/Vegan.jpg"  alt="...">
                     </a>
                     <div class="card-body">
@@ -179,21 +161,6 @@
 </div>
 </main>
 
-<!-- **************************************************************************
-Ajouter d'autres items pour le carrousel ici 
-</div>    ICI Mes boutons de carousel 
-<button class="carousel-control-prev d-none btn btn-secondary" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev" onclick="precedent()" >Précédent</button>
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-
-
-<button class="carousel-control-next d-none btn btn-secondary" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next" onclick="suivant()" >Suivant</button>
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-
-
-
-</div>
-</main> -->
 
 
 
@@ -201,101 +168,11 @@ Ajouter d'autres items pour le carrousel ici
 
 
 
-
-
-
-
-
-
-
-
-
-
-<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
-
-<footer class="text-center " style="background-color: #4A394a;" >
-  <!-- Grid container -->
-  <div class="container p-4 ">
-    <!-- Section: Images -->
-    <section class="mb-4">
-      <div class="row ">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/facebook2.png" class="auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section: Images -->
-  </div>
-
-</footer>
-
-
-
-
-
-<!--<footer class="bg-light text-center text-lg-start fixed-bottom">
-    <div class="container p-4">
-        <div class="row">
-            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                <ul class="list-unstyled mb-0">
-                    <li><a href="#!" class="text-dark"><img src="images_the_district/the_district_brand/facebook2.png" class="w-100" ></a></li>
-                    <li><a href="#!" class="text-dark"><img src="images_the_district/the_district_brand/instagram2.png"class="w-100" ></a></li>
-                    <li><a href="#!" class="text-dark"><img src="images_the_district/the_district_brand/twitter2.png" class="w-100" ></a></li>
-                    <li><a href="#!" class="text-dark"><img src="images_the_district/the_district_brand/whatsapp2.png"  class="w-100" ></a></li>
-                    <li><a href="#!" class="text-dark"><img src="images_the_district/the_district_brand/youtube2.png" class="w-100" ></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</footer>-->
-
-
-
-
-
-
-
-
-
- 
-
-
-
-
-
+<!--         ICI MON FOOTER OU PIED DE PAGE AVEC LES LOGOS    -->
+<?php
+require_once ('php/footer.php');
+?>
+    
 
 
 

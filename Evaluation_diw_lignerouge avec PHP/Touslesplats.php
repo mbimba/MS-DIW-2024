@@ -12,31 +12,13 @@
 
 
 <body style="background-color: #4A394a;">
-    <header>
-      <!--        NAVBAR ENTETE         SANS L'ONGLET DE RECHERCHE      -->
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fs-2  fixed-top">
-        <div class="container-fluid-flex">
-          <img src="images_the_district/the_district_brand/facebook_cover_photo_1.png" class="object-fit-contain border rounded" width="80" alt="">
-        </div>
-        <div class="container-fluid d-flex justify-content-evenly " >
-          <ul class="navbar-nav">
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link  espace" href="Accueil.html">Accueil</a>
-            </li>
-            <li class="nav-item col-sm-4 "> 
-              <a class="nav-link  espace" href="Catégorie.html">Catégorie</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link active espace" href="Touslesplats.html">Plat</a>
-            </li>
-            <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace " href="Contact.html">Contact</a>
-            </li>
-          </ul>
-         
-        </div>
-      </nav>
-    </header>
+
+     <!--     Header        SANS L'ONGLET DE RECHERCHE      -->
+
+<?php
+require_once ("php/header.php");
+?>
+
 
 
     <div class="image-container position-relative"> <!--        ICI MON MA VIDEO DE FOND SANS L'ONGLET DE RECHERCHE    -->
@@ -75,7 +57,7 @@
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">BOUILLON DE NOUILLES & ÉMINCÉS DE BOEUF</h5>
                             <p class="card-text tailledescriplat"><i>Nouilles, viandes, champignons avec du piment. </i></p> <!-- "i" permet de mettre le texte en italique -->
-                            <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                            
                         </div>
                     </div>
@@ -88,7 +70,7 @@
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">NEMS</h5>
                             <p class="card-text tailledescriplat"><i>Un pack de nems au poulet et des beignets de crevettes </i></p>
-                            <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -100,7 +82,7 @@
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">BOEUF SAUTÉ</h5>
                             <p class="card-text tailledescriplat"><i>Boeuf, poivrons et champignons </i></p>
-                            <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -112,7 +94,7 @@
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">SUSHIS</h5>
                             <p class="card-text tailledescriplat"><i>Riz, poisson, avocat... </i></p>
-                            <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                    
@@ -130,7 +112,7 @@
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER AU BACON</h5>
                         <p class="card-text tailledescriplat"><i>Avec du bacon croustillant, 1 steak haché 100% pour boeuf et 100% français. Accompagné de frites. </i></p>
-                        <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -142,7 +124,7 @@
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER CHICKEN</h5>
                         <p class="card-text tailledescriplat"><i>Chicken légèrement citronnée, et son croustillant inimitable il saura vous régaler </i></p>
-                        <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -154,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER NORMAND</h5>
                         <p class="card-text tailledescriplat"><i>Des buns tartinés d'oignons caramélisés. Tout le réconfort du Camembert fondu sur la chair à saucisse de cochon.</i></p>
-                        <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -166,7 +148,7 @@
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER BOEUF</h5>
                         <p class="card-text tailledescriplat"><i>Un steak haché 100%* pur bœuf et 100% français, ses oignons frais, sa salade, ses tomates, le tout réhaussé par sa sauce inimitable à la moutarde à l'ancienne.</i></p>
-                        <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 
@@ -185,7 +167,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">AILES DE POULET</h5>
                 <p class="card-text tailledescriplat"><i>Grillées au feu de bois </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php"class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -197,7 +179,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">ÉMINCÉ DE BOEUF AUX COURGETTES GRILLÉES</h5>
                 <p class="card-text tailledescriplat"><i>Du boeuf 100% français accompagné de courgettes de saison.</i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -209,7 +191,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">RIBS</h5>
                 <p class="card-text tailledescriplat"><i>Grillés au feu de bois </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -221,7 +203,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">STEAK</h5>
                 <p class="card-text tailledescriplat"><i>Grillés au feu de bois </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -240,7 +222,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AUX BOULETTES DE BOEUF</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -252,7 +234,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES CARBONARA</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -264,7 +246,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AU SAUMON</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -276,7 +258,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AUX ÉPINARDS</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec des épinards frais</i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -296,7 +278,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA MARGHERITA</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza fraîche, basilic, huile d'olive </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -308,7 +290,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA ORIENTALE</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza, poivrons, oeuf dur, merguez, champignons </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -320,7 +302,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA AU SAUMON</h5>
                 <p class="card-text tailledescriplat"><i>Base crème, saumon, tomates cerise, tomates confites, roquette, jus de citron, mozza, oignon </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -332,7 +314,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA SAVOYARDE</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza, pommes de terre, lardons. </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -351,7 +333,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DE CAROTTES</h5>
                 <p class="card-text tailledescriplat"><i>Carottes de la région </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -363,7 +345,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DU CHEF</h5>
                 <p class="card-text tailledescriplat"><i>Le secret du chef </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -375,7 +357,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE NIÇOISE</h5>
                 <p class="card-text tailledescriplat"><i>Spécialité niçoise adaptée selon les légumes de saison </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -387,7 +369,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE AU THON CRU</h5>
                 <p class="card-text tailledescriplat"><i>Salon et son poisson selon son arrivage </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -407,7 +389,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH CHICKEN</h5>
                 <p class="card-text tailledescriplat"><i>Chicken et sauce moutarde </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -420,7 +402,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH JAMBON</h5>
                 <p class="card-text tailledescriplat"><i>Du jambon avec du beurre et de l'emmental</i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -432,7 +414,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH POULET</h5>
                 <p class="card-text tailledescriplat"><i>Emincé de poulet et sauce mayonnaise </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -444,7 +426,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH SALAMI</h5>
                 <p class="card-text tailledescriplat"><i>Du salami et du frommage </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -464,7 +446,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">BOULETTES DE LEGUMES</h5>
                 <p class="card-text tailledescriplat"><i>Boulettes de pois chiche et pommes de terre accompagnée d'une sauce tomate </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -477,7 +459,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">TABOULÉ</h5>
                 <p class="card-text tailledescriplat"><i>Avec du couscous et des légumes de saison </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -489,7 +471,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">BURGER</h5>
                 <p class="card-text tailledescriplat"><i>Fait maison. A composer</i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -501,7 +483,7 @@
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DE POIS CHICHE</h5>
                 <p class="card-text tailledescriplat"><i>Un mélange de pois chice et d'autres légumes de la région </i></p>
-                <a href="Commande.html" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -552,59 +534,12 @@
 
 
 
-
-
-
-<!--         ICI MON PIED DE PAGE AVEC LES LOGOS    -->
-
-<footer class="text-center" style="background-color: #4A394a;">
-  <!-- Grid container -->
-  <div class="container p-4 ">
-    <!-- Section: Images -->
-    <section class="mb-4">
-      <div class="row ">
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/facebook2.png" class="auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/instagram2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/twitter2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/whatsapp2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-
-        <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-          <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso">
-            <a href="#">
-              <img src="images_the_district/the_district_brand/youtube2.png" class="w-auto" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Section: Images -->
-  </div>
-
-</footer>
+<!--         ICI MON FOOTER OU PIED DE PAGE AVEC LES LOGOS    -->
+<?php
+require_once ('php/footer.php');
+?>
+    
+ 
 
 
 
