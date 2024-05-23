@@ -48,7 +48,7 @@ require_once ("php/header.php");
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> BOULETTES DE LEGUMES</h5>
-              <p class="card-text tailledescriplat"><i>Boulettes de pois chiche et pommes de terre accompagnée d'une sauce tomate</i></p>
+              <p class="card-text tailledescriplat" style="text-align:justify"><i>Boulettes de pois chiche et pommes de terre accompagnée d'une sauce tomate.</i></p>
               <a href="Commande.php" class="btn btn-dark">Commander</a>
             </div>
           </div>
@@ -63,7 +63,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">TABOULÉ</h5>
-                  <p class="card-text tailledescriplat"><i>Avec du couscous et des légumes de saison</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Avec du couscous et des légumes de saison.</i></p>
                   <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BURGER</h5>
-                  <p class="card-text tailledescriplat"><i>Fait maison. A composer</i></p>
+                  <p class="card-text tailledescriplat"><i>Fait maison. A composer.</i></p>
                   <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>
@@ -94,7 +94,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SALADE DE POIS CHICHE</h5>
-                  <p class="card-text tailledescriplat"><i>Un mélange de pois chice et d'autres légumes de la région</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Un mélange de pois chice et d'autres légumes de la région.</i></p>
                   <a href="Commande.php" class="btn btn-dark">Commander</a>
                 </div>
               </div>

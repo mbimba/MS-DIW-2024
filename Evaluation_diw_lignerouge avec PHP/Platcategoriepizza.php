@@ -48,7 +48,7 @@ require_once ("php/header.php");
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat">PIZZA MARGHERITA</h5>
-              <p class="card-text tailledescriplat"><i>Base tomate, mozza fraîche, basilic, huile d'olive</i></p>
+              <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza fraîche, basilic, huile d'olive.</i></p>
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
@@ -63,7 +63,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PIZZA ORIENTALE</h5>
-                  <p class="card-text tailledescriplat"><i>Base tomate, mozza, poivrons, oeuf dur, merguez, champignons</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza, poivrons, oeuf dur, merguez, champignons.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -78,7 +78,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PIZZA AU SAUMON</h5>
-                  <p class="card-text tailledescriplat"><i>Base crème, saumon, tomates cerise, tomates confites, roquette, jus de citron, mozza, oignon</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base crème, saumon, tomates cerise, tomates confites, roquette, jus de citron, mozza, oignon.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -94,7 +94,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PIZZA SAVOYARDE</h5>
-                  <p class="card-text tailledescriplat"><i>Base tomate, mozza, pommes de terre, lardons</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza, pommes de terre, lardons.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>

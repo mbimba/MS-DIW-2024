@@ -46,7 +46,7 @@ require_once ("php/header.php");
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> PÂTES AUX BOULETTES DE BOEUF</h5>
-              <p class="card-text tailledescriplat"><i>Pâtes maison</i></p>
+              <p class="card-text tailledescriplat"><i>Pâtes maison.</i></p>
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
@@ -61,7 +61,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES CARBONARA</h5>
-                  <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Pâtes maison avec une base de crème fraîche.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -76,7 +76,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES AU SAUMON</h5>
-                  <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Pâtes maison avec une base de crème fraîche.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -92,7 +92,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">PÂTES AUX ÉPINARDS</h5>
-                  <p class="card-text tailledescriplat"><i>Pâtes maison avec des épinards frais</i></p>
+                  <p class="card-text tailledescriplat"><i>Pâtes maison avec des épinards frais.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>

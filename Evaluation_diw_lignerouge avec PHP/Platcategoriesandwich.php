@@ -48,7 +48,7 @@
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> SANDWICH CHICKEN</h5>
-              <p class="card-text tailledescriplat"><i> Chicken et sauce moutarde</i></p>
+              <p class="card-text tailledescriplat"><i> Chicken et sauce moutarde.</i></p>
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
@@ -63,7 +63,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SANDWICH JAMBON</h5>
-                  <p class="card-text tailledescriplat"><i>Du jambon avec du beurre et de l'emmental</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Du jambon avec du beurre et de l'emmental.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -78,7 +78,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SANDWICH POULET</h5>
-                  <p class="card-text tailledescriplat"><i>Emincé de poulet et sauce mayonnaise</i></p>
+                  <p class="card-text tailledescriplat"><i>Emincé de poulet et sauce mayonnaise.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -94,7 +94,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SANDWICH SALAMI</h5>
-                  <p class="card-text tailledescriplat"><i>Du salami et du fromage</i></p>
+                  <p class="card-text tailledescriplat"><i>Du salami et du fromage.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>

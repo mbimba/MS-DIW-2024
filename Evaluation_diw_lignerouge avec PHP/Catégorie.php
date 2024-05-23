@@ -66,7 +66,7 @@ require_once ("php/header.php");
                     </a>
                         <div class="card-body">
                             <h5 class="card-title">BURGERS</h5>
-                            <p class="card-text tailledescriplat"><i>Différents burgers faits maison</i></p>
+                            <p class="card-text tailledescriplat"><i>Différents burgers faits maison.</i></p>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -88,7 +88,7 @@ require_once ("php/header.php");
                         </a>
                         <div class="card-body">
                             <h5 class="card-title">SANDWICHS</h5>
-                            <p class="card-text tailledescriplat"><i>Sandwichs frais composés sur place</i></p>
+                            <p class="card-text tailledescriplat"><i>Sandwichs frais composés sur place.</i></p>
                         </div>
                     </div>
                    
@@ -126,7 +126,7 @@ require_once ("php/header.php");
                     </a>
                     <div class="card-body">
                         <h5 class="card-title">GRILLADES</h5>
-                        <p class="card-text tailledescriplat"><i>Viandes et poissons cuits au feu de bois</i></p>
+                        <p class="card-text tailledescriplat"><i>Viandes et poissons cuits au feu de bois.</i></p>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->

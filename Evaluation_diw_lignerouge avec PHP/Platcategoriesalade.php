@@ -47,7 +47,7 @@ require_once ("php/header.php");
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat">SALADE DE CAROTTES</h5>
-              <p class="card-text tailledescriplat"><i>Carottes de la région</i></p>
+              <p class="card-text tailledescriplat"><i>Carottes de la région.</i></p>
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
@@ -77,7 +77,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SALADE NIÇOISE</h5>
-                  <p class="card-text tailledescriplat"><i>Spécialité niçoise adaptée selon les légumes de saison</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Spécialité niçoise adaptée selon les légumes de saison.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -93,7 +93,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">SALADE AU THON CRU</h5>
-                  <p class="card-text tailledescriplat"><i>Salon et son poisson selon son arrivage</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Salon et son poisson selon son arrivage.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>

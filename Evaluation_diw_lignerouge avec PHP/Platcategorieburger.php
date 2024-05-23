@@ -47,7 +47,7 @@ require_once ("php/header.php");
           <div class="col-md-6">
             <div class="card-body">
               <h5 class="card-title tailletitreplat"> BURGER AU BACON</h5>
-              <p class="card-text tailledescriplat"><i>Avec du bacon croustillant, 1 steak haché 100% pour boeuf et 100% français. Accompagné de frites.</i></p>
+              <p class="card-text tailledescriplat" style="text-align:justify"><i>Avec du bacon croustillant, 1 steak haché 100% pour boeuf et 100% français. Accompagné de frites.</i></p>
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
@@ -62,7 +62,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BURGER CHICKEN</h5>
-                  <p class="card-text tailledescriplat"><i>Chicken légèrement citronnée, et son croustillant inimitable il saura vous régaler</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Chicken légèrement citronnée, et son croustillant inimitable il saura vous régaler.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -77,7 +77,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BURGER NORMAND</h5>
-                  <p class="card-text tailledescriplat"><i>Des buns tartinés d'oignons caramélisés. Tout le réconfort du Camembert fondu sur la chair à saucisse de cochon.</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Des buns tartinés d'oignons caramélisés. Tout le réconfort du Camembert fondu sur la chair à saucisse de cochon.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
@@ -93,7 +93,7 @@ require_once ("php/header.php");
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BURGER BOEUF</h5>
-                  <p class="card-text tailledescriplat"><i>Un steak haché 100%* pur bœuf et 100% français, ses oignons frais, sa salade, ses tomates, le tout réhaussé par sa sauce inimitable à la moutarde à l'ancienne.</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Un steak haché 100%* pur bœuf et 100% français, ses oignons frais, sa salade, ses tomates, le tout réhaussé par sa sauce inimitable à la moutarde à l'ancienne.</i></p>
                   <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>

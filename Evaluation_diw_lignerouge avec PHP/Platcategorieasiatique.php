@@ -46,7 +46,7 @@
         <div class="col-md-6">
           <div class="card-body">
             <h5 class="card-title tailletitreplat"> BOUILLON DE NOUILLES & ÉMINCÉS DE BOEUF</h5>
-            <p class="card-text tailledescriplat"><i>Nouilles, viandes, champignons avec du piment.</i></p>
+            <p class="card-text tailledescriplat" style="text-align:justify"><i>Nouilles, viandes, champignons avec du piment.</i></p>
             <div class="d-flex flex-row-reverse">  <!-- "d-flex flex-row-reverse" permet de mettre "commander" tout à droite -->
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
@@ -63,7 +63,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">NEMS</h5>
-                  <p class="card-text tailledescriplat"><i>Un pack de nems au poulet et des beignets de crevettes</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Un pack de nems au poulet et des beignets de crevettes.</i></p>
                   <div class="d-flex flex-row-reverse">
                     <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                   </div>
@@ -80,7 +80,7 @@
               <div class="col-md-6">
                 <div class="card-body">
                   <h5 class="card-title tailletitreplat">BOEUF SAUTÉ</h5>
-                  <p class="card-text tailledescriplat"><i>Boeuf, poivrons et champignons</i></p>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Boeuf, poivrons et champignons.</i></p>
                   <div class="d-flex flex-row-reverse">
                     <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                   </div>
