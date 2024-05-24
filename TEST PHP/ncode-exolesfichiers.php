@@ -31,9 +31,27 @@ $fichier = file("liens.txt");
 ?>
 
 <!-- ************************************* -->
+<h2></h2>
+<p><strong>Proposition 2:</strong></p>
+<?php
+
+$fichier = file("liens.txt");
+$total = count($fichier);
+   
+    foreach ($fichier as $line_num => $line) {
+        echo "Ligne #<b>{$line_num}</b> : " . htmlspecialchars($line) . 
+"<br />\n";
+}
+?>
+
+
+
+
+
+<!-- ************************************* -->
 
 <h2></h2>
-<p><strong>Proposition 2: Lit le fichier et renvoie dans un tableau</strong></p>
+<p><strong>Proposition 3: Lit le fichier et renvoie dans un tableau</strong></p>
 <?php
  // Lit le fichier et renvoie le résultat dans un tableau
 $lines = file("liens.txt");
@@ -58,19 +76,47 @@ $trimmed = file('liens.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 3. Affichez le résultat dans un tableau HTML (avec Bootstrap si possible) en prenant bien soin de nommer les colonnes du tableau.
 </p>
+<p><strong>Question 1: Première proposition </strong></p>
 <?php
 
-    $filepath = 'customers.csv'; // Le fichier
-    $contenu = fread( fopen( $filepath, "r" ) , filesize( $filepath ) );
-    echo "$contenu";
+$lines = file('https://ncode.amorce.org/customers.csv');
+
+foreach($lines as $line)
+{
+    echo($line);
+}
 
 ?>
 
 <!-- ****************************** -->
-<p>bjr</p>
+<p><strong>Question 1: Deuxième proposition </strong></p>
+
 <?php
+
+// Lit une page web dans un tableau.
+$lines = file('https://ncode.amorce.org/customers.csv');
+
+// Affiche toutes les lignes du tableau comme code HTML, avec les numéros de ligne
+foreach ($lines as $line_num => $line) {
+    echo "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
+}
  
- 
+?>
+
+<!-- ****************************** -->
+<h2></h2>
+<p><strong>Compter le nombre de lignes dans un tableau </strong></p>
+
+<?php
+
+$names=file('https://ncode.amorce.org/customers.csv');
+// To check the number of lines 
+echo count($names).'<br>';
+foreach($names as $name)
+{
+   echo $name.'<br>';
+}           // Il y a 100 lignes
+
 ?>
 
 <!-- ****************************** -->
@@ -78,20 +124,14 @@ $trimmed = file('liens.txt', FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
 
 <?php
 
-
-
 ?>
 
 <!-- ****************************** -->
-<h2></h2>
-
+<h2>test</h2>
 <?php
 
+
 ?>
-
-<!-- ****************************** -->
-
-
 
 
 
