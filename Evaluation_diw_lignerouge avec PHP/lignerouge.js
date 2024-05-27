@@ -10,7 +10,7 @@ document.getElementById("carouselcatsuiv").click();
 }
 
 
-/*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************   */
+/*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************  
 
 function envoicontact() {
  // test lenom ()
@@ -109,3 +109,6 @@ if(resultatadresse == false){
 
 
 }  // Fin function envoicommande().
+
+
+ */
