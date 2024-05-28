@@ -39,7 +39,7 @@ require_once ("php/header.php");
 <main>
 
     <div class="container mt-5 pt-5 containercontact" position="relative" action="traitement.php" method="get"> <!-- Mon formulaire contact    pt-5 pour appliquer une marge au dessus--> 
-        <form class="row g-3" action="php\formulairecontact.php" method="POST" >
+        <form class="row g-3" action="php/formulairecontact.php" method="post" >
             <div class="col-md-6">
                 <label for="nom" class="form-label"><strong>Nom</strong></label>
                 <input type="text" class="form-control inputcontact" id="lenom" name="name" placeholder="PASCAL DUPONT" required >
@@ -59,8 +59,8 @@ require_once ("php/header.php");
                 <span aria-label="required" >Ce champ est obligatoire</span>
             </div>
             <div class="col-md-16">
-                <label for="votredemande" class="form-label"><strong>Votre demande</strong></label>
-                <textarea class="form-control inputcontact"  rows="3"  id="votredemande" ></textarea>
+                <label for="votredemande" class="form-label"><strong>Votre demande</strong></label> 
+                <textarea class="form-control inputcontact"  rows="3"  id="votredemande"  placeholder="Une question, un commentaire?" required></textarea>
                     </div>
                     <div class="col-md-12 d-flex flex-row-reverse">
                     <button type="submit" class="btn btn-primary" onclick="envoicontact()">Envoyer</button>

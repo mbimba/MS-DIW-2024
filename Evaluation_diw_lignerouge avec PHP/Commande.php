@@ -63,7 +63,7 @@ require_once ("php/header.php");
         </div>
         <div class="col-md-12">
             <label for="votreadresse" class="form-label"><strong>Votre adresse</strong></label>
-            <textarea class="form-control" id="votreadresse" rows="3" ></textarea>
+            <textarea class="form-control" id="votreadresse" rows="3" placeholder="Une adresse de livraison" required></textarea>
             <span aria-label="required">Ce champ est obligatoire</span>
                 </div>
                 <div class="col-md-12 d-flex flex-row-reverse">         <!-- "d-flex flex-row-reverse" permet de mettre "envoyer" tout à droite -->

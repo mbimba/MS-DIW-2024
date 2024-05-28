@@ -10,7 +10,7 @@ document.getElementById("carouselcatsuiv").click();
 }
 
 
-/*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************  
+/*          ****************** ICI    JAVASCRIPT DE LA PAGE CONTACT            *************************   */
 
 function envoicontact() {
  // test lenom ()
@@ -49,7 +49,7 @@ var codetel= /^0[1-9]([-. ]?[0-9]{2}){4}$/;
 resultatphone= codetel.test(phone);
 if(resultatphone == false) {
     alert("Veuillez saisir un numéro de téléphone");
-      return false;
+     // return false;
 }
 
 //test votredemande()
@@ -93,7 +93,7 @@ var codetel= /^0[1-9]([-. ]?[0-9]{2}){4}$/;
 resultattel= codetel.test(tel);
 if(resultattel == false) {
     alert("Veuillez saisir un numéro de téléphone");
-      return false;
+      //return false;
 }
 
 
@@ -111,4 +111,3 @@ if(resultatadresse == false){
 }  // Fin function envoicommande().
 
 
- */
