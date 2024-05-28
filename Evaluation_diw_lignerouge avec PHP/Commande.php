@@ -44,26 +44,26 @@ require_once ("php/header.php");
 
    <!--       ICI Le début de mon formulaire commande       -->
             
-   <div class="container mt-5 pt-5" action="traitement.php" method="get" > <!-- Mon formulaire commande      "pt-5 permet de créer une marge ou espace au"-->
-    <form class="row g-3" >
+   <div class="container mt-5 pt-5" > <!-- Mon formulaire commande      "pt-5 permet de créer une marge ou espace au"-->
+    <form class="row g-3" action="php/formulairecoommande.php" method="post" >
         <div class="col-md-12">
             <label for="nomprenom" class="form-label"><strong>Nom et prénom</strong></label>
-            <input type="text" class="form-control" id="nometprenom">
+            <input type="text" class="form-control" id="nometprenom" name="nomprenom">
             <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-6">
             <label for="email" class="form-label"><strong>Email</strong></label>
-            <input type="email" class="form-control inputcontact" id="votreemail"  placeholder="dave.loper@afpa.fr" required>
+            <input type="email" class="form-control inputcontact" id="votreemail" name="mail"  placeholder="dave.loper@afpa.fr" required>
             <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-6">
             <label for="phonenumber" class="form-label"><strong>Téléphone</strong></label>
-            <input type="tel" class="form-control inputcontact" id="phone" name="phone" placeholder="01 23 45 67 89">
+            <input type="tel" class="form-control inputcontact" id="phone" name="phone2" placeholder="01 23 45 67 89">
             <span aria-label="required">Ce champ est obligatoire</span>
         </div>
         <div class="col-md-12">
             <label for="votreadresse" class="form-label"><strong>Votre adresse</strong></label>
-            <textarea class="form-control" id="votreadresse" rows="3" placeholder="Une adresse de livraison" required></textarea>
+            <textarea class="form-control" id="votreadresse" rows="3" name="adresse" placeholder="Une adresse de livraison" required></textarea>
             <span aria-label="required">Ce champ est obligatoire</span>
                 </div>
                 <div class="col-md-12 d-flex flex-row-reverse">         <!-- "d-flex flex-row-reverse" permet de mettre "envoyer" tout à droite -->

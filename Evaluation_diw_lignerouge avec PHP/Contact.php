@@ -38,11 +38,11 @@ require_once ("php/header.php");
     
 <main>
 
-    <div class="container mt-5 pt-5 containercontact" position="relative" action="traitement.php" method="get"> <!-- Mon formulaire contact    pt-5 pour appliquer une marge au dessus--> 
+    <div class="container mt-5 pt-5 containercontact" position="relative"> <!-- Mon formulaire contact    pt-5 pour appliquer une marge au dessus--> 
         <form class="row g-3" action="php/formulairecontact.php" method="post" >
             <div class="col-md-6">
                 <label for="nom" class="form-label"><strong>Nom</strong></label>
-                <input type="text" class="form-control inputcontact" id="lenom" name="name" placeholder="PASCAL DUPONT" required >
+                <input type="text" class="form-control inputcontact" id="lenom" name="nom" placeholder="PASCAL DUPONT" required >
                 <span aria-label="required">Ce champ est obligatoire</span>
             </div>
             <div class="col-md-6">
@@ -51,7 +51,7 @@ require_once ("php/header.php");
             </div>
             <div class="col-md-6">
                 <label for="email" class="form-label"><strong>Email</strong></label>
-                <input type="email" class="form-control inputcontact" id="email"  placeholder="dave.loper@afpa.fr" required>
+                <input type="email" class="form-control inputcontact" id="email" name="email" placeholder="dave.loper@afpa.fr" required>
             </div>
             <div class="col-md-6">
                 <label for="phonenumber" class="form-label "><strong>Téléphone</strong></label>
@@ -60,7 +60,7 @@ require_once ("php/header.php");
             </div>
             <div class="col-md-16">
                 <label for="votredemande" class="form-label"><strong>Votre demande</strong></label> 
-                <textarea class="form-control inputcontact"  rows="3"  id="votredemande"  placeholder="Une question, un commentaire?" required></textarea>
+                <textarea class="form-control inputcontact"  rows="3"  id="votredemande" name="demande" placeholder="Une question, un commentaire?" required></textarea>
                     </div>
                     <div class="col-md-12 d-flex flex-row-reverse">
                     <button type="submit" class="btn btn-primary" onclick="envoicontact()">Envoyer</button>

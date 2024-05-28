@@ -16,21 +16,23 @@
         <div class="container-fluid d-flex justify-content-evenly " >
           <ul class="navbar-nav">
             <li class="nav-item col-sm-4 ">
-              <a class="nav-link active espace" href="Accueil.php">Accueil</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Accueil.php") {echo "active";}?> espace" href="Accueil.php">Accueil</a>
             </li>
             <li class="nav-item col-sm-4 "> 
-              <a class="nav-link espace" href="Catégorie.php">Catégorie</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Cat%C3%A9gorie.php") {echo "active";}?>  espace" href="Catégorie.php">Catégorie</a>
             </li>
             <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace" href="Touslesplats.php">Plat</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Touslesplats.php") {echo "active";}?>  espace" href="Touslesplats.php">Plat</a>
             </li>
             <li class="nav-item col-sm-4 ">
-              <a class="nav-link espace " href="Contact.php">Contact</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Contact.php") {echo "active";}?>  espace " href="Contact.php">Contact</a>
             </li>
           </ul>
          
         </div>
       </nav>
+
+      <?php  echo "<script> console.log('".$_SERVER['REQUEST_URI']."')</script>" ;?>
 
     </header>
 
