@@ -15,7 +15,7 @@ document.getElementById("carouselcatsuiv").click();
 function envoicontact() {
  // test lenom ()
  var nom = document.getElementById("lenom").value;
-  var codenom = /^.*[A-Za-z/.*é.*|.*e.*|.*É.*|.*E.*/\s].*+$/;                      //  \S dans le regex permet d'autoriser de l'espace.   /.*é.*|.*e.*|.*É.*|.*E.*/: pour n'importe quel caractère, à l'exception des caractères de nouvelle ligne, et *un caractère pour correspondre à zéro ou plus du caractère précédent.
+  var codenom = /.*[a-zA-ZàâäèéêëìîïòôöùûüçÀÂÄÈÉÊËÌÎÏÒÔÖÙÛÜÇ\s].*/;                      //  \S dans le regex permet d'autoriser de l'espace.   
   resultatnom = codenom.test(nom);
   if (resultatnom == false) {
     alert("Veuillez compléter le nom");
@@ -26,7 +26,7 @@ function envoicontact() {
 //test leprenom ()
 
 var prenom = document.getElementById("leprenom").value;
-  var codeprenom = /^[A-Za-z/.*é.*|.*e.*|.*É.*|.*E.*/\s]+$/;
+  var codeprenom = /.*[a-zA-ZàâäèéêëìîïòôöùûüçÀÂÄÈÉÊËÌÎÏÒÔÖÙÛÜÇ\s].*/;
   resultatprenom = codeprenom.test(prenom);
   if (resultatprenom == false) {
     alert("Veuillez remplir la case Prénom");
@@ -54,7 +54,7 @@ if(resultatphone == false) {
 
 //test votredemande()
 var demande = document.getElementById("votredemande").value;
-var codedemande = /^.*[ 0-9A-Za-z\s].*/+$;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre. 
+var codedemande = /^.*[ 0-9A-ZàâäèéêëìîïòôöùûüçÀÂÄÈÉÊËÌÎÏÒÔÖÙÛÜÇ\s].*/+$;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre. 
 if(resultatdemande == false){
     alert("N'oubliez pas de saisir la demande.");
     return false;
