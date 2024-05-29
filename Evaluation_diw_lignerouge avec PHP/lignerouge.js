@@ -69,7 +69,7 @@ if(resultatdemande == false){
 function envoicommande() {
   //test nometprenom ()
   var nomprenom = document.getElementById("nometprenom").value;
-  var codenomprenom = /^[A-Za-z\s]+$/;
+  var codenomprenom =/.*[a-zA-ZàâäèéêëìîïòôöùûüçÀÂÄÈÉÊËÌÎÏÒÔÖÙÛÜÇ\s].*/;                      //  \S dans le regex permet d'autoriser de l'espace.   
   resultatnomprenom = codenomprenom.test(nomprenom);
   if (resultatnomprenom == false) {
     alert("Veuillez remplir votre nom et prénom");
@@ -98,7 +98,7 @@ if(resultattel == false) {
 
 //test votreadresse ()
 var adresse = document.getElementById("votreadresse").value;
-var codeadresse = /^[0-9A-Za-z]+$/;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre 
+var codeadresse = /^.*[ 0-9A-ZàâäèéêëìîïòôöùûüçÀÂÄÈÉÊËÌÎÏÒÔÖÙÛÜÇ\s].*/+$;             // J'ai utilisé un regex alphanumérique qui accepte chiffre et lettre 
 resultatadresse= codeadresse.test(adresse);
 if(resultatadresse == false){
     alert("N'oubliez pas de saisir une adresse de livraison.");

@@ -69,8 +69,8 @@ require_once ("php/header.php");
                 <div class="col-md-12 d-flex flex-row-reverse">         <!-- "d-flex flex-row-reverse" permet de mettre "envoyer" tout à droite -->
                 <button type="submit" class="btn btn-primary" onclick="envoicommande ()">Envoyer</button>
             </div>
-            </form>
-        </div>
+      </form>
+    </div>
 
         </main>
 
