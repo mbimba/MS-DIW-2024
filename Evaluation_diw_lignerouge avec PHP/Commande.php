@@ -45,7 +45,7 @@ require_once ("php/header.php");
    <!--       ICI Le début de mon formulaire commande       -->
             
    <div class="container mt-5 pt-5" > <!-- Mon formulaire commande      "pt-5 permet de créer une marge ou espace au"-->
-    <form class="row g-3" action="php/formulairecommmande.php" method="post" >
+    <form class="row g-3" action="php/formulairecommande.php" method="post" >
         <div class="col-md-12">
             <label for="nomprenom" class="form-label"><strong>Nom et prénom</strong></label>
             <input type="text" class="form-control" id="nometprenom" name="nomprenom">
