@@ -147,7 +147,16 @@ span{
   font-size: smaller;
 }
 
-
+.btnquantite{
+  border-radius: 30px;
+  font-weight: bold;
+}
+.btnselectcommande{                   /* Pour une mise en page du bouton quantité et select   */
+  background-color: rgb(0, 81, 255);
+  border-radius: 30px;
+  border-color: aqua;
+  text-align: center;
+}
 
 /*------------------------------------------Page contact  -------------------------------------------------------- */
        /* POur centrer le bloc du formulaire en plein milieu de la page 

@@ -32,8 +32,26 @@ require_once ("php/header.php");
                   <div class="card-body">
                     <h5 class="card-title"> BOUILLON DE NOUILLES & ÉMINCÉS DE BOEUF</h5>
                     <p class="card-text">Ce plat est composé de...</p>
-          
-                    <p> Quantité <a href="#" class="btn btn-dark"> 1 </a> </p>
+         
+                  
+<div class="dropdown ">
+<button type="button" class="btn btn-primary text-body btnquantite">Quantité</button>    <!-- "text body": permet de mettre le texte du bouton en noir    "btn-sm": pour réduire la taille du bouton-->
+  <select class="custom-select text-body btnselectcommande" id="validationCustom04" required>
+        <option selected disabled value="">Choisir...</option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+  </select>
+</div>
+
+
+</div>
+
+
+
+
                   </div>
                 </div>
               </div>
