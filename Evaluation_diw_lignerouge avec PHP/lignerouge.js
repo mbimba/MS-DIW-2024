@@ -110,3 +110,130 @@ if(resultatadresse == false){
 }  // Fin function envoicommande().
 
 
+
+
+/*          ****************** ICI    Mes fonctions pour swuipper les boutons "suivant"  et "précédent" des plats par catégorie       *************************   */
+
+
+/*     -----on est sur la page plat asiat -------  */
+function redirectToAnotherPageasiat() {
+
+  window.location.href = "Platcategorieasiatique.php";
+
+}
+
+function redirectToAnotherPageburger() {
+
+  window.location.href = "Platcategorieburger.php";
+
+}
+
+/*     ------on est sur la page plat burger ------  */
+
+function redirectToAnotherPageasiat() {
+
+  window.location.href = "Platcategorieasiatique.php";
+
+}
+
+function redirectToAnotherPagegrillade() {
+
+  window.location.href = "Platcategoriegrillade.php";
+
+}
+
+
+/*   ------on est sur la page plat grillade -------    */
+
+function redirectToAnotherburger() {
+
+  window.location.href = "Platcategorieburger.php";
+
+}
+
+function redirectToAnotherPagepate() {
+
+  window.location.href = "Platcategoriepate.php";
+
+}
+
+
+/*   -------on est sur la page plat pate------    */
+
+function redirectToAnothergrillade() {
+
+  window.location.href = "Platcategoriegrillade.php";
+
+}
+
+function redirectToAnotherpizza() {
+
+  window.location.href = "Platcategoriepizza.php";
+
+}
+
+
+/*   ------on est sur la page plat pizza -------    */
+function redirectToAnotherpate() {
+
+  window.location.href = "Platcategoriepate.php";
+
+}
+
+function redirectToAnothersalade() {
+
+  window.location.href = "Platcategoriesalade.php";
+
+}
+
+
+/*   --------on est sur la page plat salade -----    */
+
+function redirectToAnotherpizza() {
+
+  window.location.href = "Platcategoriepizza.php";
+
+}
+
+function redirectToAnothersandwich() {
+
+  window.location.href = "Platcategoriesandwich.php";
+
+}
+
+
+/*   ------on est sur la page plat sandwich-------    */
+function redirectToAnothersalade() {
+
+  window.location.href = "Platcategoriesalade.php";
+
+}
+
+function redirectToAnothervegan() {
+
+  window.location.href = "Platcategorievegan.php";
+
+}
+
+/*   -------on est sur la page plat vegan------    */
+function redirectToAnothersandwich() {
+
+  window.location.href = "Platcategoriesandwich.php";
+
+}
+
+function redirectToAnotherasiat() {
+
+  window.location.href = "Platcategorieasiatique.php";
+
+}
+
+/*          ****************** FIN    Mes fonctions pour swuipper les boutons "suivant"  et "précédent" des plats par catégorie       *************************   */
+
+
+
+
+/*   -------------    */
+
+
+/*   -------------    */

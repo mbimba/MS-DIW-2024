@@ -109,18 +109,14 @@
   </div>
 
 
-</div>        <!-- ICI Mes boutons de carousel -->
+</div>       
+ <!-- ICI Mes boutons précédent et suivant -->
 
+<div class="d-grid gap-2 d-md-block">
+        <button class="btn btn-dark  boutonsuivetprec" onclick="redirectToAnotherPageasiat()" type="button"> PRECEDENT</button>
+        <button class="btn btn-dark boutonsuivetprec" onclick="redirectToAnotherPageburger()"type="button"> SUIVANT </button>
+</div>
 
-<button class="carousel-control-prev d-none" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button"><a href="Catégorie.php">Précédent</a></button>
-
-
-<button class="carousel-control-next d-none" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-<span class="carousel-control-next-icon" aria-hidden="true"></span>
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button"><a href="Platcategorieburger.php">Suivant</a></button>
 
 
 </div>
