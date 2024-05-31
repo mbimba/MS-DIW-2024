@@ -63,7 +63,7 @@ require_once ("php/header.php");
    <!--       ICI Le début de mon formulaire commande       -->
             
    <div class="container mt-5 pt-5" > <!-- Mon formulaire commande      "pt-5 permet de créer une marge ou espace au"-->
-    <form class="row g-3" action="php/formulairecommande.php" method="post" >
+    <form class="row g-3" novalidate action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" >
         <div class="col-md-12">
             <label for="nomprenom" class="form-label"><strong>Nom et prénom</strong></label>
             <input type="text" class="form-control" id="nometprenom" name="nomprenom">
@@ -95,6 +95,43 @@ require_once ("php/header.php");
 
 
 
+ <!--   ****************************     PHP TEST FORMULAIRE PAGE COMMANDE ************************************ -->
+
+ <?php
+if ( $_SERVER['REQUEST_METHOD'] == 'POST') {
+
+
+$nomprenom = $_POST['nomprenom'];
+$mail = $_POST['mail'];
+$phone2 = $_POST['phone2'];
+$adresse = $_POST['adresse'];
+
+//$date = new DateTime();
+$date= date ('Y-m-d-H-i-s');
+//$filename = $date->format('Y-m-d-H-i-s') . '.txt';            // d= le jour, m= le mois  y= l'année H= heure    i=minutes   s=secondes
+$filename = $date . ' commande.txt';  
+
+
+$currentDateTime = new DateTime('now');   // pour mon echo après l'envoi du formulaire: date envoi du formulaire
+$currentDate = $currentDateTime->format('l, F j, Y H:i:s');          // pour mon echo après l'envoi du formulaire: date envoi du formulaire
+
+
+
+
+$file= fopen($filename, 'w');
+fwrite($file, "Nom et prénom: $nomprenom\n");
+fwrite($file, "Email: $mail\n");
+fwrite($file, "Téléphone: $phone2\n");
+fwrite($file, "Votre demande: $adresse\n");
+fclose($file);
+
+
+  echo "Les informations saisies dans ce formulaire ont été enregistrées avec succès: le $currentDate";
+ 
+
+}
+
+?>
 
 
 

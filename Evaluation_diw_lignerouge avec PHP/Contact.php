@@ -39,7 +39,7 @@ require_once ("php/header.php");
 <main>
 
     <div class="container mt-5 pt-5 containercontact" position="relative"> <!-- Mon formulaire contact    pt-5 pour appliquer une marge au dessus--> 
-        <form class="row g-3" action="php/formulairecontact.php" method="post" >
+        <form class="row g-3" novalidate action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" >      
             <div class="col-md-6">
                 <label for="nom" class="form-label"><strong>Nom</strong></label>
                 <input type="text" class="form-control inputcontact" id="lenom" name="nom" placeholder="PASCAL DUPONT" required >
@@ -80,6 +80,43 @@ require_once ("php/header.php");
 
 
 
+ <!--   ****************************     PHP TEST FORMULAIRE PAGE CONTACT ************************************ -->
+
+<?php
+if ( $_SERVER['REQUEST_METHOD'] == 'POST') {
+
+
+$nom = $_POST['nom'];
+$prenom = $_POST['prenom'];
+$email = $_POST['email'];
+$phone = $_POST['phone'];
+$demande = $_POST['demande'];
+
+
+
+
+$date= date ('Y-m-d-H-i-s');
+//$filename = $date->format('Y-m-d-H-i-s') . '.txt';            // d= le jour, m= le mois  y= l'année H= heure    i=minutes   s=secondes
+$filename = $date . '.txt';  
+
+$currentDateTime = new DateTime('now');   // pour mon echo après l'envoi du formulaire: date envoi du formulaire
+$currentDate = $currentDateTime->format('l, F j, Y H:i:s');          // pour mon echo après l'envoi du formulaire: date envoi du formulaire
+
+$file= fopen($filename, 'w');
+fwrite($file, "Nom: $nom\n");
+fwrite($file, "Prénom: $prenom\n");
+fwrite($file, "Email: $email\n");
+fwrite($file, "Téléphone: $phone\n");
+fwrite($file, "Votre demande: $demande\n");
+fclose($file);
+
+
+  echo "Les informations saisies dans ce formulaire ont été enregistrées avec succès: le $currentDate";
+ 
+
+}
+
+?>
 
 
 
