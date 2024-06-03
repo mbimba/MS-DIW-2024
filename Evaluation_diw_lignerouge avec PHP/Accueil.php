@@ -59,7 +59,7 @@
       <div class="img-fluid ">
         <h1>ASIATIQUE</h1>
         <a href="Platcategorieasiatique.php">
-          <img class="rounded-circle mx-auto d-block " src="images_the_district/category/asian_food_cat2a.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border border-black-1" src="images_the_district/category/asian_food_cat2a.jpg" alt="">
         </a>
       </div>
     </div>
@@ -68,7 +68,7 @@
       <div class="img-fluid">
         <h1>BURGERS</h1>
         <a href="Platcategorieburger.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/burger_cat.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/burger_cat.jpg" alt="">
         </a>
       </div>
     </div>
@@ -77,7 +77,7 @@
       <div class="img-fluid ">
         <h1>PÂTES</h1>
         <a href="Platcategoriepate.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pasta_cat.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/pasta_cat.jpg" alt="">
         </a>
       </div>
     </div>
@@ -89,11 +89,11 @@
 
 <div class="container-fluid mt-3  pt-5 card text-center  w-75 " style="background-color: #4A394a;">  <!--         ICI LES 3 AUTRES CATÉGORIES DE PLATS SUR LA PAGE ACCUEIL     -->
   <div class="row ">    <!-- "w-75" pour centrer les cartes au milieu -->
-    <div class="col-sm-4 p-3 bg-secondary text-white">
+    <div class="col-sm-4 p-3 bg-secondary text-white ">
       <div class="img-fluid zoomimage">
         <h1>SANDWICHS</h1>
         <a href="Platcategoriesandwich.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/wrap_cat.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/wrap_cat.jpg" alt="">
         </a>
       </div>
     </div>
@@ -103,7 +103,7 @@
       <div class="img-fluid zoomimage">
         <h1>PIZZAS</h1>
         <a href="Platcategoriepizza.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pizza_cat.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/pizza_cat.jpg" alt="">
         </a>
       </div>
     </div>
@@ -112,7 +112,7 @@
       <div class="img-fluid zoomimage">
         <h1>SALADES</h1>
         <a href="Platcategoriesalade.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/salade_cat.jpg" alt="">
+          <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/salade_cat.jpg" alt="">
         </a>
       </div>
     </div>
@@ -129,18 +129,18 @@
   <div class="row ">
     <div class="col-sm-4 p-3 bg-dark text-white">
       <div class="img-fluid">
-        <img class="rounded-5 mx-auto d-block" src="images_the_district/food/cesar_salad.jpg" alt="">
+        <img class="rounded-end-circle mx-auto d-block border border-black-1" src="images_the_district/food/cesar_salad.jpg" alt="">
 
       </div>
     </div>
 
-    <div class="col-sm-4 p-3 bg-secondary text-white">
-      <img class="rounded-5 mx-auto d-block" src="images_the_district/food/courgettes_farcies.jpg" alt="">
+    <div class="col-sm-4 p-3 bg-dark text-white">
+      <img class="rounded-end-circle rounded-top-0 mx-auto d-block border border-black-1" src="images_the_district/food/courgettes_farcies.jpg" alt="">
 
     </div>
 
     <div class="col-sm-4 p-3 bg-dark  text-white">
-      <img class="rounded-5 mx-auto d-block" src="images_the_district/food/pizza-salmon.png" alt="">
+      <img class="rounded-end-circle mx-auto d-block border border-black-1" src="images_the_district/food/pizza-salmon.png" alt="">
 
     </div>
 
