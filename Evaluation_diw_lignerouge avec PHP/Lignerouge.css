@@ -195,5 +195,7 @@ span{
 
 .boutonsuivetprec{
   border-radius: 30px;
- 
+  margin: 0 45px;      /* Pour créer de l'espace entre les boutons "précédent" et "suivant"*/
 }
+
+

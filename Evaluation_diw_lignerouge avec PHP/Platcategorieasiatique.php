@@ -34,6 +34,7 @@
 <main>
 <br>
       <h1 class="text-center">ASIATIQUE</h1><br>
+   
       <div id="carouselExample" class="carousel slide text-center" data-bs-ride="carousel" style="background-color: #4A394a;">
         <div class="carousel-inner">
   <div class="container row d-flex  justify-content-evenly mx-auto p-2 " style="background-color: #4A394a;">  <!-- mx-auto p-2  permet de centrer le bloc de cards au centre de la page -->
@@ -112,9 +113,9 @@
 </div>       
  <!-- ICI Mes boutons précédent et suivant -->
 
-<div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-dark  boutonsuivetprec" onclick="redirectToAnotherPageasiat()" type="button"> PRECEDENT</button>
-        <button class="btn btn-dark boutonsuivetprec" onclick="redirectToAnotherPageburger()"type="button"> SUIVANT </button>
+<div class="container d-grid gap-2 d-md-block">
+        <button class="btn btn-dark col-sm-1  boutonsuivetprec" onclick="redirectToAnotherPageasiat()" type="button"> Précédent</button>
+        <button class="btn btn-dark col-sm-1 boutonsuivetprec" onclick="redirectToAnotherPageburger()" type="button"> Suivant </button>
 </div>
 
 

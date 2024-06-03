@@ -108,9 +108,9 @@ require_once ("php/header.php");
 
 <!-- ICI Mes boutons précédent et suivant -->
 
-<div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-dark  boutonsuivetprec" onclick="redirectToAnotherPageburger()" type="button"> PRECEDENT</button>
-        <button class="btn btn-dark boutonsuivetprec" onclick="redirectToAnotherPagepate()"type="button"> SUIVANT </button>
+<div class="container d-grid gap-2 d-md-block">
+        <button class="btn btn-dark col-sm-1 boutonsuivetprec" onclick="redirectToAnotherPageburger()" type="button"> Précédent</button>
+        <button class="btn btn-dark col-sm-1 boutonsuivetprec" onclick="redirectToAnotherPagepate()"type="button"> Suivant </button>
 </div>
 
 

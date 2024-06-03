@@ -107,9 +107,9 @@
 
 <!-- ICI Mes boutons précédent et suivant -->
 
-<div class="d-grid gap-2 d-md-block">
-        <button class="btn btn-dark  boutonsuivetprec" onclick="redirectToAnothersalade()" type="button"> PRECEDENT</button>
-        <button class="btn btn-dark boutonsuivetprec" onclick="redirectToAnothervegan()"type="button"> SUIVANT </button>
+<div class="container d-grid gap-2 d-md-block">
+        <button class="btn btn-dark col-sm-1 boutonsuivetprec" onclick="redirectToAnothersalade()" type="button"> Précédent</button>
+        <button class="btn btn-dark col-sm-1 boutonsuivetprec" onclick="redirectToAnothervegan()"type="button"> Suivant </button>
 </div>
 
 
