@@ -150,12 +150,12 @@ require_once ("php/header.php");
 </div>       <!--ICI Mes boutons de carousel -->
 <button class="carousel-control-prev d-none" id="carouselcatprec" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="precedent()" type="button">Précédent</button>
+<button class="btn btn-secondary bg-dark rounded-4 col-sm-1 espacebouton" onclick="precedent()" type="button">Précédent</button>         <!-- col-sm-1 permet d'avoir des boutons d'une même largeur -->
 
 
 <button class="carousel-control-next d-none" id="carouselcatsuiv" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
 <span class="carousel-control-next-icon" aria-hidden="true"></span>
-<button class="btn btn-secondary bg-dark rounded-4 espacebouton" onclick="suivant()"  type="button">Suivant</button>
+<button class="btn btn-secondary bg-dark rounded-4 col-sm-1 espacebouton" onclick="suivant()"  type="button">Suivant</button>   <!-- col-sm-1 permet d'avoir des boutons d'une même largeur -->
 
 
 </div>

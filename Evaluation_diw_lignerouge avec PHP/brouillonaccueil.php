@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ACCUEIL V3</title>
+    <title>Ma page accueil</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="Lignerouge.css" rel="stylesheet">
@@ -17,10 +17,9 @@
   require_once ("php/header.php");
   ?>
 
-    <div class="parallax">       <!--         DEBUT PARALLAX    -->
-      
-     
-      <div class="image-container position-relative"> <!--        ICI MA VIDEO DE FOND + L'ONGLET DE RECHERCHE    -->
+
+
+<div class="image-container position-relative"> <!--        ICI MA VIDEO DE FOND + L'ONGLET DE RECHERCHE    -->
         <div class="row g-0"> <!--Ici mon image de fond -->
       
           <!-- <div class="image-container">   Ici mon image de fond 
@@ -43,89 +42,68 @@
     
         </div>
       
-      </div>
+</div>
 
-
-       
- 
-   
+<div class="parallax">       <!--         DEBUT PARALLAX    -->
 
 <main>         <!--        ICI MA PAGE AVEC LES CATEGORIES     -->
- 
 
-<div class="container-fluid mt-3  pt-5 card text-center w-75 " style="background-color: #4A394a;">  <!--         ICI LES 3 PREMIERES CATÉGORIES DE PLATS SUR LA PAGE ACCUEIL     -->
-  <div class="row ">        <!-- "w-75" pour centrer les cartes au milieu -->
-    <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
-      <div class="img-fluid ">
-        <h1>ASIATIQUE</h1>
-        <a href="Platcategorieasiatique.php">
-          <img class="rounded-circle mx-auto d-block " src="images_the_district/category/asian_food_cat2a.jpg" alt="">
-        </a>
-      </div>
+<!--- 3 premières catégories -->
+
+<div class="container-fluid  row text-center pt-5 mx-5" style="background-color: #4A394a; width: 100rem;">   <!--         ICI LES 3 PREMIERES CATÉGORIES DE PLATS SUR LA PAGE ACCUEIL     -->
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-dark text-white rounded-pil ">
+        <h5 class="card-text">ASIATIQUE</h5>
+        <a href="#" >  <img class="rounded-circle mx-auto d-block " src="images_the_district/category/asian_food_cat2a.jpg" alt=""></a>
+  
     </div>
-
-    <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
-      <div class="img-fluid">
-        <h1>BURGERS</h1>
-        <a href="Platcategorieburger.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/burger_cat.jpg" alt="">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-sm-4 p-3 bg-dark  text-white zoomimage">
-      <div class="img-fluid ">
-        <h1>PÂTES</h1>
-        <a href="Platcategoriepate.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pasta_cat.jpg" alt="">
-        </a>
-      </div>
-    </div>
-
   </div>
+
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-secondary text-white">
+        <h5 class="card-title">BURGERS</h5>
+        <a href="#"> <img class="rounded-circle mx-auto d-block" src="images_the_district/category/burger_cat.jpg" alt=""></a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-dark  text-white ">
+        <h5 class="card-title">PÂTES</h5>
+        <a href="#" ><img class="rounded-circle mx-auto d-block" src="images_the_district/category/pasta_cat.jpg" alt=""></a>
+    </div>
+  </div>
+
 </div>
 
 <!--         ICI LES 3 AUTRES CATÉGORIES DE PLAT SUR LA PAGE ACCUEIL     -->
 
-<div class="container-fluid mt-3  pt-5 card text-center  w-75 " style="background-color: #4A394a;">  <!--         ICI LES 3 AUTRES CATÉGORIES DE PLATS SUR LA PAGE ACCUEIL     -->
-  <div class="row ">    <!-- "w-75" pour centrer les cartes au milieu -->
-    <div class="col-sm-4 p-3 bg-secondary text-white">
-      <div class="img-fluid zoomimage">
-        <h1>SANDWICHS</h1>
-        <a href="Platcategoriesandwich.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/wrap_cat.jpg" alt="">
-        </a>
-      </div>
+<div class="row text-center pt-5 mx-5" style="background-color: #4A394a; width: 100rem;">
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-secondary text-white">
+        <h5 class="card-title">SANDWICHS</h5>
+        <a href="#">  <img class="rounded-circle mx-auto d-block" src="images_the_district/category/wrap_cat.jpg" alt=""></a>
     </div>
-    
-
-    <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
-      <div class="img-fluid zoomimage">
-        <h1>PIZZAS</h1>
-        <a href="Platcategoriepizza.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pizza_cat.jpg" alt="">
-        </a>
-      </div>
-    </div>
-
-    <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
-      <div class="img-fluid zoomimage">
-        <h1>SALADES</h1>
-        <a href="Platcategoriesalade.php">
-          <img class="rounded-circle mx-auto d-block" src="images_the_district/category/salade_cat.jpg" alt="">
-        </a>
-      </div>
-    </div>
-
   </div>
+
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-dark  text-white ">
+        <h5 class="card-title">PIZZAS</h5>
+        <a href="#" >   <img class="rounded-circle mx-auto d-block" src="images_the_district/category/pizza_cat.jpg" alt=""></a>
+    </div>
+  </div>
+
+  <div class="col-sm-4 zoomimage">
+    <div class="card bg-secondary text-white">
+        <h5 class="card-title">SALADES</h5>
+        <a href="#" ><img class="rounded-circle mx-auto d-block" src="images_the_district/category/salade_cat.jpg" alt=""></a>
+    </div>
+  </div>
+
 </div>
-
-
-
 
 <!--         ICI LES 3 PLATS SUR LA PAGE ACCUEIL     -->
 
-<div class="container-fluid mt-3  pt-5 card text-center w-75 " style="background-color: #4A394a;">     <!-- "w-75" pour centrer les cartes au milieu -->
+<div class="container-fluid text-center pt-5 mx-5" style="background-color: #4A394a; width: 100rem; height:5rem;">
   <div class="row ">
     <div class="col-sm-4 p-3 bg-dark text-white">
       <div class="img-fluid">
@@ -146,10 +124,30 @@
 
   </div>
 </div>
-</div> 
+
+
+
+
+
 </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>            <!--         FIN PARALLAX    -->
+
+
+
 
 
 
@@ -165,12 +163,7 @@ require_once ('php/footer.php');
      
 
 
-
-
-
-
-
-
+    
 
 
 
