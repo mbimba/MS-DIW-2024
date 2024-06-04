@@ -125,28 +125,24 @@
 
 <!--         ICI LES 3 PLATS SUR LA PAGE ACCUEIL     -->
 
-<div class="container-fluid mt-3  pt-5 card text-center w-75 " style="background-color: #4A394a;">     <!-- "w-75" pour centrer les cartes au milieu -->
+<div class="container-fluid mt-3  pt-5 card text-center w-75 img-fluid" style="background-color: #4A394a;">     <!-- "w-75" pour centrer les cartes au milieu -->
   <div class="row ">
     <div class="col-sm-4 p-3 bg-dark text-white">
-      <div class="img-fluid">
-        <img class="rounded-end-circle mx-auto d-block border border-black-1" src="images_the_district/food/cesar_salad.jpg" alt="">
-
-      </div>
+        <img class="rounded-2 mx-auto d-block border border-black-1" src="images_the_district/food/cesar_salad.jpg" width="50%" height="80%" alt="">
     </div>
 
     <div class="col-sm-4 p-3 bg-dark text-white">
-      <img class="rounded-end-circle rounded-top-0 mx-auto d-block border border-black-1" src="images_the_district/food/courgettes_farcies.jpg" alt="">
-
+      <img class="rounded-2 mx-auto d-block border border-black-1" src="images_the_district/food/courgettes_farcies.jpg" width="50%" height="80%" alt="">
     </div>
 
     <div class="col-sm-4 p-3 bg-dark  text-white">
-      <img class="rounded-end-circle mx-auto d-block border border-black-1" src="images_the_district/food/pizza-salmon.png" alt="">
-
+      <img class="rounded-2 mx-auto d-block border border-black-1" src="images_the_district/food/pizza-salmon.png" width="50%" height="80%" alt="">
     </div>
 
   </div>
 </div>
-</div> 
+
+
 </main>
 
 </div>            <!--         FIN PARALLAX    -->
