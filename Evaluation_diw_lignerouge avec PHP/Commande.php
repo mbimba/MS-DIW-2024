@@ -25,7 +25,7 @@ require_once ("php/header.php");
           
             <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
               <div class="row g-0">
-                <div class="col-md-4">
+                <div class="col-md-4 ">
                   <img src="Mesimages/Asiannouillesviande.jpeg" class="img-fluid rounded-pill" alt="...">
                 </div>
                 <div class="col-md-6">

@@ -46,7 +46,7 @@
         </div>
         <div class="col-md-6">
           <div class="card-body">
-            <h5 class="card-title tailletitreplat"> BOUILLON DE NOUILLES & ÉMINCÉS DE BOEUF</h5>
+            <h5 class="card-title tailletitreplat" style="text-align:center"> BOUILLON DE NOUILLES AU BOEUF</h5>
             <p class="card-text tailledescriplat" style="text-align:justify"><i>Nouilles, viandes, champignons avec du piment.</i></p>
             <div class="d-flex flex-row-reverse">  <!-- "d-flex flex-row-reverse" permet de mettre "commander" tout à droite -->
               <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
