@@ -41,7 +41,7 @@
   
     <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
       <div class="row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4 zoomimage2 ">
           <img src="Mesimages/Asiannouillesviande.jpeg" class="img-fluid rounded-pill" alt="...">
         </div>
         <div class="col-md-6">
@@ -58,7 +58,7 @@
 
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4 ">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/Asiannems.jpeg" class="img-fluid rounded-pill " alt="...">
               </div>
               <div class="col-md-6">
@@ -75,7 +75,7 @@
        
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/AsianboeufsauteSanstitre.jpeg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
@@ -93,7 +93,7 @@
 
           <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/Asiansushi.jpeg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">

@@ -49,7 +49,7 @@ require_once ("php/header.php");
             <div class="carousel-item active card-img-top">
                 <div class="card-group">     <!--            ****************** 1ER CAROUSEL AVEC 4 IMAGES  *************************    -->
                     <!-- Ajouter des cartes ici selon besoin -->
-                    <div class="img-fluid col-sm-3 p-3 bg-dark text-white ">
+                    <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
                         <a href="Platcategorieasiatique.php">
                         <img class="rounded-circle mx-auto d-block" src="images_the_district/category/asian_food_cat2a.jpg"  alt="...">
                         </a>

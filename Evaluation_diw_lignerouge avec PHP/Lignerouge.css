@@ -38,12 +38,21 @@ video{        /* La vidéo prend toute la largeur de la page */
 }
 
 
-.zoomimage img:hover{             /* Pour fixer les dimensions (hauteur et largeur) de l'image zoomée */
+.zoomimage img {             /* Pour fixer les dimensions (hauteur et largeur) de l'image zoomée */
  
   width: auto;
-  max-height: 300px;
+  max-height: 200px;
   
 }
+
+.zoomimage {                       /* Nous utilisons la propriété CSS 'position : relative;' pour nous assurer que l'image reste dans le cadre défini par son élément parent.  */
+  
+
+  position : relative;
+  overflow : hidden;
+  transition : 0.5s;
+
+  }
 
 
 
@@ -190,6 +199,26 @@ span{
 
 
 
+/*------------------------------------------ Page Plats par catégorie  -------------------------------------------------------- */
+.zoomimage2 img:hover{                       /* Pour créer l'effet zoom sur les images de la page  */
+  
+
+    transform: scale(1.5);
+    transition: 0.4s;
+    width: auto;
+
+    }
+  
+
+    .zoomimage2 {                       /* Nous utilisons la propriété CSS 'position : relative;' pour nous assurer que l'image reste dans le cadre défini par son élément parent.  */
+  
+
+      position : relative;
+      overflow : hidden;
+      transition : 0.5s;
+  
+      }
+    
 
 /*------------------------------------------Toutes les Pages Plats par catégorie -------------------------------------------------------- */
 
