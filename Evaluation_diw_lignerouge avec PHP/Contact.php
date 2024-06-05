@@ -36,10 +36,10 @@ require_once ("php/header.php");
       
       </div>
     
-<main>
+<main >
 
     <div class="container mt-5 pt-5 containercontact" position="relative"> <!-- Mon formulaire contact    pt-5 pour appliquer une marge au dessus--> 
-        <form class="row g-3" novalidate action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" >      
+        <form class="row g-3 bordure" novalidate action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" >      
             <div class="col-md-6">
                 <label for="nom" class="form-label"><strong>Nom</strong></label>
                 <input type="text" class="form-control inputcontact" id="lenom" name="nom" placeholder="PASCAL DUPONT" required >

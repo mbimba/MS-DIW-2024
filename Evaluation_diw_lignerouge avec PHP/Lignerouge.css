@@ -167,6 +167,17 @@ span{
   text-align: center;
 }
 
+.bordure {                                /* Pour ajouter une bordure au formulaire commande et contact  */
+  border-top: 5px #252b29 double;
+  border-right: 5px #252b29 double;
+  border-bottom: 5px #252b29 double;
+  border-left: 5px #252b29 double;
+  border-radius: 15px;
+}
+
+
+
+
 /*------------------------------------------Page contact  -------------------------------------------------------- */
        /* POur centrer le bloc du formulaire en plein milieu de la page 
   
@@ -188,9 +199,6 @@ span{
 
   
 }
-
-
-
 
 
 

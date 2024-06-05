@@ -3,7 +3,7 @@
 
     
 
-<footer class="" style="background-color: #4A394a;">
+<footer class=" " style="background-color: #4A394a;">
         <!-- Grid container -->
         <div class="container p-4 ">
           <!-- Section: Images -->
