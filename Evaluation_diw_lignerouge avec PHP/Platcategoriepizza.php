@@ -40,7 +40,7 @@ require_once ("php/header.php");
         <div class="carousel-inner">
   <div class="container row d-flex  justify-content-evenly mx-auto p-2 " style="background-color: #4A394a;">  <!-- mx-auto p-2  permet de centrer le bloc de cards au centre de la page -->
   
-    <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
+    <div class="card mb-3 bg-primary col-6 rounded-5 border border-danger" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 zoomimage2">
             <img src="Mesimages/pizzasmargherita.jpg" class="img-fluid rounded-pill" alt="...">
@@ -55,7 +55,7 @@ require_once ("php/header.php");
     </div>
     </div>
 
-          <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
+          <div class="card mb-3 bg-secondary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/pizzasorientale.jpg" class="img-fluid rounded-pill " alt="...">
@@ -70,7 +70,7 @@ require_once ("php/header.php");
             </div>
           </div>
        
-          <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
+          <div class="card mb-3 bg-secondary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/pizzassaumon.jpg" class="img-fluid rounded-pill" alt="...">
@@ -86,7 +86,7 @@ require_once ("php/header.php");
           </div>
 
 
-          <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
+          <div class="card mb-3 bg-primary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/pizzassavoyarde.jpg" class="img-fluid rounded-pill" alt="...">

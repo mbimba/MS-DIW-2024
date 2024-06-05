@@ -8,7 +8,7 @@
         <div class="container p-4 ">
           <!-- Section: Images -->
           <section class="mb-4">
-            <div class="row ">
+            <div class="row">
               <div class="col-lg-2 col-md-12 mb-4 mb-md-0 zoomimage">
                 <div class="bg-image hover-overlay shadow-1-strong rounded meslogosreso" >
                   <a href="#">
