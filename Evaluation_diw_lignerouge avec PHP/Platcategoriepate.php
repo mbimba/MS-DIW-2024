@@ -33,7 +33,7 @@ require_once ("php/header.php");
       
 <main>
 <br>
-      <h1 class="text-center">PÂTES</h1><br>
+      <h1 class="text-center h5couleurcat">PÂTES</h1><br>
       <div id="carouselExample" class="carousel slide text-center" data-bs-ride="carousel" style="background-color: #4A394a;">
         <div class="carousel-inner">
   <div class="container row d-flex  justify-content-evenly mx-auto p-2 " style="background-color: #4A394a;">  <!-- mx-auto p-2  permet de centrer le bloc de cards au centre de la page -->

@@ -48,7 +48,7 @@ require_once ("php/header.php");
             <div class="carousel-item active ">
            
                 <div class="card-group">     <!--            ****************** 1ER CAROUSEL AVEC 4 IMAGES DE "PLATS ASIATIQUES"  *************************    -->
-                    <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>
+                    <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>
                     <!-- Ajouter des cartes ici selon besoin -->
                     <div class="img-fluid col-sm-3 p-3 bg-dark text-white  ">
                         <img class="rounded-circle mx-auto d-block " src="Mesimages/Asiannouillesviande.jpeg"  alt="...">
@@ -94,7 +94,7 @@ require_once ("php/header.php");
             </div>
             <div class="carousel-item">     <!--            ****************** 2EME CAROUSEL AVEC 4 IMAGES DE "BURGERS"  *************************    -->
             <div class="card-group">  
-                <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>    
+                <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>    
                 <!-- Ajouter des cartes ici selon besoin -->
                 <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
                     <img class="rounded-circle mx-auto d-block" src="Mesimages/bgbacon.jpg"  alt="...">
@@ -141,7 +141,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 3EME CAROUSEL AVEC 4 IMAGES DE "GRILLADES"  *************************    -->
     <div class="card-group">   
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>   
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>   
         <!-- Ajouter des cartes ici selon besoin -->
         <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/grilladeailedepouletetlegume.jpg"  alt="...">
@@ -188,7 +188,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 4EME CAROUSEL AVEC 4 IMAGES DE "PATES"  *************************    -->
     <div class="card-group">    
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>  
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>  
         <!-- Ajouter des cartes ici selon besoin -->
         <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/patesboulettesboeuf.jpg"  alt="...">
@@ -236,7 +236,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 5EME CAROUSEL AVEC 4 IMAGES DE "PIZZAS"  *************************    -->
     <div class="card-group">      
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>
         <!-- Ajouter des cartes ici selon besoin -->
         <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/pizzasmargherita.jpg"  alt="...">
@@ -283,7 +283,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 6EME CAROUSEL AVEC 4 IMAGES DE PLATS "SALADES"  *************************    -->
     <div class="card-group">    
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>  
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>  
         <!-- Ajouter des cartes ici selon besoin -->
         <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/saladecarotte.jpg"  alt="...">
@@ -331,7 +331,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 7EME CAROUSEL AVEC 4 IMAGES DE PLATS "SANDWICHS"  *************************    -->
     <div class="card-group"> 
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>     
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>     
           <!-- Ajouter des cartes ici selon besoin -->
           <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/sandwichchicken.jpg"  alt="...">
@@ -380,7 +380,7 @@ require_once ("php/header.php");
 
 <div class="carousel-item">     <!--            ****************** 8EME CAROUSEL AVEC 4 IMAGES DE PLATS "VEGAN"  *************************    -->
     <div class="card-group">    
-        <div class="col-12 mx-auto p-2 "> <h1 class="">TOUS LES PLATS</h1></div>  
+        <div class="col-12 mx-auto p-2 "> <h1 class="h5couleurcat">TOUS LES PLATS</h1></div>  
           <!-- Ajouter des cartes ici selon besoin -->
           <div class="img-fluid col-sm-3 p-3 bg-dark text-white">
             <img class="rounded-circle mx-auto d-block" src="Mesimages/veganbouletteetriz.jpg"  alt="...">

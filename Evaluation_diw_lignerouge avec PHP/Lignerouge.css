@@ -219,6 +219,11 @@ span{
   
       }
     
+.h5couleurcat{            /* Pour donner un contour au texte du h5 */
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+}
+
 
 /*------------------------------------------Toutes les Pages Plats par catégorie -------------------------------------------------------- */
 
