@@ -42,7 +42,7 @@
   
     <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4 zoomimage2">
             <img src="Mesimages/sandwichchicken.jpg" class="img-fluid rounded-pill" alt="...">
           </div>
           <div class="col-md-6">
@@ -57,7 +57,7 @@
 
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4 ">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/sandwichjambon.jpg" class="img-fluid rounded-pill " alt="...">
               </div>
               <div class="col-md-6">
@@ -72,7 +72,7 @@
        
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/sandwichpoulet.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
@@ -88,7 +88,7 @@
 
           <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/sandwichsalami.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">

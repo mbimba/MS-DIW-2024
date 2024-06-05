@@ -40,7 +40,7 @@ require_once ("php/header.php");
   
     <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4 zoomimage2">
             <img src="Mesimages/patesboulettesboeuf.jpg" class="img-fluid rounded-pill" alt="...">
           </div>
           <div class="col-md-6">
@@ -55,7 +55,7 @@ require_once ("php/header.php");
 
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4 ">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/patescarbonara.jpg" class="img-fluid rounded-pill " alt="...">
               </div>
               <div class="col-md-6">
@@ -70,7 +70,7 @@ require_once ("php/header.php");
        
           <div class="card mb-3 bg-secondary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/patessaumon.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
@@ -86,7 +86,7 @@ require_once ("php/header.php");
 
           <div class="card mb-3 bg-primary col-6" style="max-width: 540px;">
             <div class="row g-0">
-              <div class="col-md-4">
+              <div class="col-md-4 zoomimage2">
                 <img src="Mesimages/patesepinards.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
