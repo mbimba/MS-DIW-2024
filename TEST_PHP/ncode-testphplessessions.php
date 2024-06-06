@@ -68,7 +68,7 @@ if ( ! isset($_SESSION["login"]) )
 }
 
 // Reste du code (PHP/HTML)
-echo"Bonjour ".$_SESSION["login"]."<br>");  
+echo"Bonjour ".$_SESSION["login"]."<br>";  // Affiche: "Bonjour webmaster"
 
 ?>
 

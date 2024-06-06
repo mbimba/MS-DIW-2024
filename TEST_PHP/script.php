@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> SCRIPT.PHP POUR TEST PHP FORMULAIRE</title>
+    <title> SCRIPT.PHP POUR TEST PHP FORMULAIRE: Gestion des données sur le serveur</title>
 </head>
 <body>
 
@@ -17,9 +17,6 @@
 
 <!--  -->
 
-<?php 
-
-?>
 
 
 
