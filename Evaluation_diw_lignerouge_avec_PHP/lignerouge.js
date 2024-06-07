@@ -118,13 +118,13 @@ if(resultatadresse == false){
 /*     -----on est sur la page plat asiat -------  */
 function redirectToAnotherPageasiat() {
 
-  window.location.href = "Platcategorieasiatique.php";
+  window.location.href = "platcategorieasiatique.php";
 
 }
 
 function redirectToAnotherPageburger() {
 
-  window.location.href = "Platcategorieburger.php";
+  window.location.href = "platcategorieburger.php";
 
 }
 
@@ -132,13 +132,13 @@ function redirectToAnotherPageburger() {
 
 function redirectToAnotherPageasiat() {
 
-  window.location.href = "Platcategorieasiatique.php";
+  window.location.href = "platcategorieasiatique.php";
 
 }
 
 function redirectToAnotherPagegrillade() {
 
-  window.location.href = "Platcategoriegrillade.php";
+  window.location.href = "platcategoriegrillade.php";
 
 }
 
@@ -147,13 +147,13 @@ function redirectToAnotherPagegrillade() {
 
 function redirectToAnotherburger() {
 
-  window.location.href = "Platcategorieburger.php";
+  window.location.href = "platcategorieburger.php";
 
 }
 
 function redirectToAnotherPagepate() {
 
-  window.location.href = "Platcategoriepate.php";
+  window.location.href = "platcategoriepate.php";
 
 }
 
@@ -162,13 +162,13 @@ function redirectToAnotherPagepate() {
 
 function redirectToAnothergrillade() {
 
-  window.location.href = "Platcategoriegrillade.php";
+  window.location.href = "platcategoriegrillade.php";
 
 }
 
 function redirectToAnotherpizza() {
 
-  window.location.href = "Platcategoriepizza.php";
+  window.location.href = "platcategoriepizza.php";
 
 }
 
@@ -176,13 +176,13 @@ function redirectToAnotherpizza() {
 /*   ------on est sur la page plat pizza -------    */
 function redirectToAnotherpate() {
 
-  window.location.href = "Platcategoriepate.php";
+  window.location.href = "platcategoriepate.php";
 
 }
 
 function redirectToAnothersalade() {
 
-  window.location.href = "Platcategoriesalade.php";
+  window.location.href = "platcategoriesalade.php";
 
 }
 
@@ -191,13 +191,13 @@ function redirectToAnothersalade() {
 
 function redirectToAnotherpizza() {
 
-  window.location.href = "Platcategoriepizza.php";
+  window.location.href = "platcategoriepizza.php";
 
 }
 
 function redirectToAnothersandwich() {
 
-  window.location.href = "Platcategoriesandwich.php";
+  window.location.href = "platcategoriesandwich.php";
 
 }
 
@@ -205,26 +205,26 @@ function redirectToAnothersandwich() {
 /*   ------on est sur la page plat sandwich-------    */
 function redirectToAnothersalade() {
 
-  window.location.href = "Platcategoriesalade.php";
+  window.location.href = "platcategoriesalade.php";
 
 }
 
 function redirectToAnothervegan() {
 
-  window.location.href = "Platcategorievegan.php";
+  window.location.href = "platcategorievegan.php";
 
 }
 
 /*   -------on est sur la page plat vegan------    */
 function redirectToAnothersandwich() {
 
-  window.location.href = "Platcategoriesandwich.php";
+  window.location.href = "platcategoriesandwich.php";
 
 }
 
 function redirectToAnotherasiat() {
 
-  window.location.href = "Platcategorieasiatique.php";
+  window.location.href = "platcategorieasiatique.php";
 
 }
 

@@ -24,13 +24,13 @@
               <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/index.php") {echo "active";}?> espace" href="index.php">Accueil</a>
             </li>
             <li class="nav-item col-sm-4 "> 
-              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Cat%C3%A9gorie.php"||$_SERVER['REQUEST_URI'] == "/Platcategorieasiatique.php"||$_SERVER['REQUEST_URI'] == "/Platcategorieburger.php" ||$_SERVER['REQUEST_URI'] == "/Platcategoriegrillade.php" ||$_SERVER['REQUEST_URI'] == "/Platcategoriepate.php" ||$_SERVER['REQUEST_URI'] == "/Platcategoriepizza.php" ||$_SERVER['REQUEST_URI'] == "/Platcategoriesalade.php" ||$_SERVER['REQUEST_URI'] == "/Platcategoriesandwich.php" ||$_SERVER['REQUEST_URI'] == "/Platcategorievegan.php") {echo "active";}?>  espace" href="Catégorie.php">Catégorie</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/categorie.php"||$_SERVER['REQUEST_URI'] == "/platcategorieasiatique.php"||$_SERVER['REQUEST_URI'] == "/platcategorieburger.php" ||$_SERVER['REQUEST_URI'] == "/platcategoriegrillade.php" ||$_SERVER['REQUEST_URI'] == "/platcategoriepate.php" ||$_SERVER['REQUEST_URI'] == "/platcategoriepizza.php" ||$_SERVER['REQUEST_URI'] == "/platcategoriesalade.php" ||$_SERVER['REQUEST_URI'] == "/platcategoriesandwich.php" ||$_SERVER['REQUEST_URI'] == "/platcategorievegan.php") {echo "active";}?>  espace" href="categorie.php">Catégorie</a>
             </li>
             <li class="nav-item col-sm-4 ">
-              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Touslesplats.php") {echo "active";}?>  espace" href="Touslesplats.php">Plat</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/touslesplats.php") {echo "active";}?>  espace" href="touslesplats.php">Plat</a>
             </li>
             <li class="nav-item col-sm-4 ">
-              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/Contact.php") {echo "active";}?>  espace " href="Contact.php">Contact</a>
+              <a class="nav-link <?php if ($_SERVER['REQUEST_URI'] == "/contact.php") {echo "active";}?>  espace " href="contact.php">Contact</a>
             </li>
           </ul>
          

@@ -55,7 +55,7 @@ require_once ("php/header.php");
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">BOUILLON DE NOUILLES AU BOEUF</h5>
                             <p class="card-text tailledescriplat"><i>Nouilles, viandes, champignons avec du piment. </i></p> <!-- "i" permet de mettre le texte en italique -->
-                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -65,7 +65,7 @@ require_once ("php/header.php");
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">NEMS</h5>
                             <p class="card-text tailledescriplat"><i>Un pack de nems au poulet et des beignets de crevettes </i></p>
-                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -75,7 +75,7 @@ require_once ("php/header.php");
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">BOEUF SAUTÉ</h5>
                             <p class="card-text tailledescriplat"><i>Boeuf, poivrons et champignons </i></p>
-                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                     <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -85,7 +85,7 @@ require_once ("php/header.php");
                         <div class="card-body">
                             <h5 class="card-title tailletitreplat">SUSHIS</h5>
                             <p class="card-text tailledescriplat"><i>Riz, poisson, avocat... </i></p>
-                            <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                            <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                         </div>
                     </div>
                    
@@ -101,7 +101,7 @@ require_once ("php/header.php");
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER AU BACON</h5>
                         <p class="card-text tailledescriplat"><i>Avec du bacon croustillant, 1 steak haché 100% pour boeuf et 100% français. Accompagné de frites. </i></p>
-                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -111,7 +111,7 @@ require_once ("php/header.php");
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER CHICKEN</h5>
                         <p class="card-text tailledescriplat"><i>Chicken légèrement citronnée, et son croustillant inimitable il saura vous régaler </i></p>
-                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -121,7 +121,7 @@ require_once ("php/header.php");
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER NORMAND</h5>
                         <p class="card-text tailledescriplat"><i>Des buns tartinés d'oignons caramélisés. Tout le réconfort du Camembert fondu sur la chair à saucisse de cochon.</i></p>
-                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -131,7 +131,7 @@ require_once ("php/header.php");
                     <div class="card-body">
                         <h5 class="card-title tailletitreplat">BURGER BOEUF</h5>
                         <p class="card-text tailledescriplat"><i>Un steak haché 100%* pur bœuf et 100% français, ses oignons frais, sa salade, ses tomates, le tout réhaussé par sa sauce inimitable à la moutarde à l'ancienne.</i></p>
-                        <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                        <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
                     </div>
                 </div>
                 
@@ -148,7 +148,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">AILES DE POULET</h5>
                 <p class="card-text tailledescriplat"><i>Grillées au feu de bois </i></p>
-                <a href="Commande.php"class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php"class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -158,7 +158,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">ÉMINCÉ DE BOEUF AUX COURGETTES GRILLÉES</h5>
                 <p class="card-text tailledescriplat"><i>Du boeuf 100% français accompagné de courgettes de saison.</i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -178,7 +178,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">STEAK</h5>
                 <p class="card-text tailledescriplat"><i>Grillés au feu de bois </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -195,7 +195,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AUX BOULETTES DE BOEUF</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -205,7 +205,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES CARBONARA</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -215,7 +215,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AU SAUMON</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec une base de crème fraîche </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -225,7 +225,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PÂTES AUX ÉPINARDS</h5>
                 <p class="card-text tailledescriplat"><i>Pâtes maison avec des épinards frais</i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -243,7 +243,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA MARGHERITA</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza fraîche, basilic, huile d'olive </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -253,7 +253,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA ORIENTALE</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza, poivrons, oeuf dur, merguez, champignons </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -263,7 +263,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA AU SAUMON</h5>
                 <p class="card-text tailledescriplat"><i>Base crème, saumon, tomates cerise, tomates confites, roquette, jus de citron, mozza, oignon </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -273,7 +273,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">PIZZA SAVOYARDE</h5>
                 <p class="card-text tailledescriplat"><i>Base tomate, mozza, pommes de terre, lardons. </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -290,7 +290,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DE CAROTTES</h5>
                 <p class="card-text tailledescriplat"><i>Carottes de la région </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -300,7 +300,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DU CHEF</h5>
                 <p class="card-text tailledescriplat"><i>Le secret du chef </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -310,7 +310,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE NIÇOISE</h5>
                 <p class="card-text tailledescriplat"><i>Spécialité niçoise adaptée selon les légumes de saison </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -320,7 +320,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE AU THON CRU</h5>
                 <p class="card-text tailledescriplat"><i>Salon et son poisson selon son arrivage </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -338,7 +338,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH CHICKEN</h5>
                 <p class="card-text tailledescriplat"><i>Chicken et sauce moutarde </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -349,7 +349,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH JAMBON</h5>
                 <p class="card-text tailledescriplat"><i>Du jambon avec du beurre et de l'emmental</i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -359,7 +359,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH POULET</h5>
                 <p class="card-text tailledescriplat"><i>Emincé de poulet et sauce mayonnaise </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -369,7 +369,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SANDWICH SALAMI</h5>
                 <p class="card-text tailledescriplat"><i>Du salami et du frommage </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -387,7 +387,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">BOULETTES DE LEGUMES</h5>
                 <p class="card-text tailledescriplat"><i>Boulettes de pois chiche et pommes de terre accompagnée d'une sauce tomate </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         
@@ -398,7 +398,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">TABOULÉ</h5>
                 <p class="card-text tailledescriplat"><i>Avec du couscous et des légumes de saison </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -408,7 +408,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">BURGER</h5>
                 <p class="card-text tailledescriplat"><i>Fait maison. A composer</i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->
@@ -418,7 +418,7 @@ require_once ("php/header.php");
             <div class="card-body">
                 <h5 class="card-title tailletitreplat">SALADE DE POIS CHICHE</h5>
                 <p class="card-text tailledescriplat"><i>Un mélange de pois chice et d'autres légumes de la région </i></p>
-                <a href="Commande.php" class="btn btn-primary tailletextcommand">Commander</a>
+                <a href="commande.php" class="btn btn-primary tailletextcommand">Commander</a>
             </div>
         </div>
         <!-- Répéter pour 6 cartes ou plus selon besoin -->

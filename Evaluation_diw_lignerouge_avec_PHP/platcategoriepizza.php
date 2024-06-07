@@ -3,17 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> PLATS GRILLADES V3</title>
+    <title> PLATS PIZZAS V3</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="Lignerouge.css" rel="stylesheet">
 
-    <body style="background-color: #4A394a;">
-   
-      <!--     Header        SANS L'ONGLET DE RECHERCHE      -->
+<body style="background-color: #4A394a;">
+  
+      <!--        Header     -->
 <?php
 require_once ("php/header.php");
-?>
+?>   
+
 
 
       <div class="image-container position-relative"> <!--        ICI MON MA VIDEO DE FOND SANS L'ONGLET DE RECHERCHE    -->
@@ -34,7 +35,7 @@ require_once ("php/header.php");
 
 <main>
 <br>
-      <h1 class="text-center h5couleurcat">GRILLADES</h1><br>
+      <h1 class="text-center h5couleurcat">PIZZAS</h1><br>
       <div id="carouselExample" class="carousel slide text-center" data-bs-ride="carousel" style="background-color: #4A394a;">
         <div class="carousel-inner">
   <div class="container row d-flex  justify-content-evenly mx-auto p-2 " style="background-color: #4A394a;">  <!-- mx-auto p-2  permet de centrer le bloc de cards au centre de la page -->
@@ -42,13 +43,13 @@ require_once ("php/header.php");
     <div class="card mb-3 bg-primary col-6 rounded-5 border border-danger" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 zoomimage2">
-            <img src="Mesimages/grilladeailedepouletetlegume.jpg" class="img-fluid rounded-pill" alt="...">
+            <img src="Mesimages/pizzasmargherita.jpg" class="img-fluid rounded-pill" alt="...">
           </div>
           <div class="col-md-6">
             <div class="card-body">
-              <h5 class="card-title tailletitreplat">AILES DE POULET</h5>
-              <p class="card-text tailledescriplat"><i>Grillées au feu de bois</i></p>
-              <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
+              <h5 class="card-title tailletitreplat">PIZZA MARGHERITA</h5>
+              <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza fraîche, basilic, huile d'olive.</i></p>
+              <a href="commande.php" class="btn btn-dark tailletextcommand">Commander</a>
             </div>
           </div>
     </div>
@@ -57,13 +58,13 @@ require_once ("php/header.php");
           <div class="card mb-3 bg-secondary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
-                <img src="Mesimages/grilladeeminceboeufcourgettesgrilles.jpg" class="img-fluid rounded-pill " alt="...">
+                <img src="Mesimages/pizzasorientale.jpg" class="img-fluid rounded-pill " alt="...">
               </div>
               <div class="col-md-6">
                 <div class="card-body">
-                  <h5 class="card-title tailletitreplat">ÉMINCÉ DE BOEUF AUX COURGETTES GRILLÉES</h5>
-                  <p class="card-text tailledescriplat"><i>Du boeuf 100% français accompagné de courgettes de saison.</i></p>
-                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
+                  <h5 class="card-title tailletitreplat">PIZZA ORIENTALE</h5>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza, poivrons, oeuf dur, merguez, champignons.</i></p>
+                  <a href="commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -72,13 +73,13 @@ require_once ("php/header.php");
           <div class="card mb-3 bg-secondary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
-                <img src="Mesimages/grilladeribsfrite.jpg" class="img-fluid rounded-pill" alt="...">
+                <img src="Mesimages/pizzassaumon.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
                 <div class="card-body">
-                  <h5 class="card-title tailletitreplat">RIBS</h5>
-                  <p class="card-text tailledescriplat"><i>Grillés au feu de bois</i></p>
-                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
+                  <h5 class="card-title tailletitreplat">PIZZA AU SAUMON</h5>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base crème, saumon, tomates cerise, tomates confites, roquette, jus de citron, mozza, oignon.</i></p>
+                  <a href="commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -88,13 +89,13 @@ require_once ("php/header.php");
           <div class="card mb-3 bg-primary col-6 rounded-5 border border-danger" style="max-width: 540px;">
             <div class="row g-0">
               <div class="col-md-4 zoomimage2">
-                <img src="Mesimages/grilladesteakfrite.jpg" class="img-fluid rounded-pill" alt="...">
+                <img src="Mesimages/pizzassavoyarde.jpg" class="img-fluid rounded-pill" alt="...">
               </div>
               <div class="col-md-6">
                 <div class="card-body">
-                  <h5 class="card-title tailletitreplat">STEAK</h5>
-                  <p class="card-text tailledescriplat"><i>Grillés au feu de bois</i></p>
-                  <a href="Commande.php" class="btn btn-dark tailletextcommand">Commander</a>
+                  <h5 class="card-title tailletitreplat">PIZZA SAVOYARDE</h5>
+                  <p class="card-text tailledescriplat" style="text-align:justify"><i>Base tomate, mozza, pommes de terre, lardons.</i></p>
+                  <a href="commande.php" class="btn btn-dark tailletextcommand">Commander</a>
                 </div>
               </div>
             </div>
@@ -102,22 +103,19 @@ require_once ("php/header.php");
   </div>
 
 
+</div>       
 
-
-</div>        
 
 <!-- ICI Mes boutons précédent et suivant -->
 
 <div class="container d-grid gap-2 d-md-block">
-        <button class="btn btn-dark col-sm-1 rounded-5 border border-danger boutonsuivetprec" onclick="redirectToAnotherPageburger()" type="button"> Précédent</button>
-        <button class="btn btn-dark col-sm-1 rounded-5 border border-danger boutonsuivetprec" onclick="redirectToAnotherPagepate()"type="button"> Suivant </button>
+        <button class="btn btn-dark col-sm-1 rounded-5 border border-danger boutonsuivetprec" onclick="redirectToAnotherpate()" type="button"> Précédent</button>
+        <button class="btn btn-dark col-sm-1 rounded-5 border border-danger boutonsuivetprec" onclick="redirectToAnothersalade()"type="button"> Suivant </button>
 </div>
-
-
-
 
 </div>
 </main>
+
 
 
 
@@ -130,4 +128,3 @@ require_once ('php/footer.php');
 
 
 
-  
