@@ -27,9 +27,9 @@
 
 <!-- ICI LE FORMULAIRE -->
 
-<form action="login_script.php" method="post">
+<form action="login1_script.php" method="post">
 
-    <label for="login">Login (ou adresse email) :</label>
+    <label for="login1">Login (ou adresse email) :</label>
 
     <input type="text" id="login" name="login"><br><br>
 

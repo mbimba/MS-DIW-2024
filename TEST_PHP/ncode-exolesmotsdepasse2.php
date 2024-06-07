@@ -22,6 +22,24 @@ Créer une table user destinée à stocker le nom, le prénom, l'adresse mail, l
 </p>
 
 
+<!-- ICI LE FORMULAIRE -->
+
+<form action="login2_script.php" method="post">
+
+  <label for="login2">Login (ou adresse email) :</label>
+
+  <input type="text" id="login" name="login"><br><br>
+
+  <label for="password">Mot de passe :</label>
+
+  <input type="password" id="password" name="password"><br><br>
+
+  <input type="submit" value="Se connecter">
+
+</form>
+
+
+
 
 </body>
 </html>
