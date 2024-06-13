@@ -58,7 +58,7 @@
     <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
       <div class="img-fluid ">
         <h1>ASIATIQUE</h1>
-        <a href="Platcategorieasiatique.php">
+        <a href="platcategorieasiatique.php">
           <img class="rounded-circle mx-auto d-block border border border-black-1" src="images_the_district/category/asian_food_cat2a.jpg" alt="">
         </a>
       </div>
@@ -67,7 +67,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
       <div class="img-fluid">
         <h1>BURGERS</h1>
-        <a href="Platcategorieburger.php">
+        <a href="platcategorieburger.php">
           <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/burger_cat.jpg" alt="">
         </a>
       </div>
@@ -76,7 +76,7 @@
     <div class="col-sm-4 p-3 bg-dark  text-white zoomimage">
       <div class="img-fluid ">
         <h1>PÂTES</h1>
-        <a href="Platcategoriepate.php">
+        <a href="platcategoriepate.php">
           <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/pasta_cat.jpg" alt="">
         </a>
       </div>
@@ -92,7 +92,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white ">
       <div class="img-fluid zoomimage">
         <h1>SANDWICHS</h1>
-        <a href="Platcategoriesandwich.php">
+        <a href="platcategoriesandwich.php">
           <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/wrap_cat.jpg" alt="">
         </a>
       </div>
@@ -102,7 +102,7 @@
     <div class="col-sm-4 p-3 bg-dark text-white zoomimage">
       <div class="img-fluid zoomimage">
         <h1>PIZZAS</h1>
-        <a href="Platcategoriepizza.php">
+        <a href="platcategoriepizza.php">
           <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/pizza_cat.jpg" alt="">
         </a>
       </div>
@@ -111,7 +111,7 @@
     <div class="col-sm-4 p-3 bg-secondary text-white zoomimage">
       <div class="img-fluid zoomimage">
         <h1>SALADES</h1>
-        <a href="Platcategoriesalade.php">
+        <a href="platcategoriesalade.php">
           <img class="rounded-circle mx-auto d-block border border-black-1" src="images_the_district/category/salade_cat.jpg" alt="">
         </a>
       </div>
